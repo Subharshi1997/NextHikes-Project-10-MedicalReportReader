@@ -271,7 +271,7 @@ def main(argv=None):
     s = p("notebook", cmd_notebook, role=True, bucket=True)
     s.add_argument("--name", default=f"{NAME}-notebook")
     s.add_argument("--instance", default="ml.t3.medium")
-    s.add_argument("--git-repo", default="https://github.com/SumeetRajput/custom-ocr-lab-reports.git")
+    s.add_argument("--git-repo", default="https://github.com/Subharshi1997/NextHikes-Project-9-MedicalReportReader.git")
     s = p("train", cmd_train, role=True, bucket=True)
     s.add_argument("--weights", default="yolov3u.pt", help="yolov3u.pt (brief) or yolo26n.pt")
     s.add_argument("--epochs", type=int, default=100)
