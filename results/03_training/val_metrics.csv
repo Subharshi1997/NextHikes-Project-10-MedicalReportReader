@@ -1,0 +1,11 @@
+detector,class,precision,recall,mAP50,mAP50-95
+yolov3u,test_name,0.973,0.982,0.994,0.626
+yolov3u,value,0.991,1.0,0.995,0.878
+yolov3u,unit,0.991,1.0,0.995,0.917
+yolov3u,reference_range,0.977,1.0,0.995,0.852
+yolov3u,ALL,0.983,0.996,0.995,0.818
+yolo26n,test_name,0.998,1.0,0.995,0.81
+yolo26n,value,0.996,1.0,0.995,0.891
+yolo26n,unit,0.997,1.0,0.995,0.906
+yolo26n,reference_range,0.997,1.0,0.995,0.903
+yolo26n,ALL,0.997,1.0,0.995,0.878

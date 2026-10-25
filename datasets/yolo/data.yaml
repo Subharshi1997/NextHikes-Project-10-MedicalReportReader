@@ -1,0 +1,5 @@
+train: images/train
+val: images/val
+test: images/test
+nc: 4
+names: ['test_name', 'value', 'unit', 'reference_range']

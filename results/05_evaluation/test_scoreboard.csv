@@ -1,0 +1,6 @@
+,test_name,value,unit,reference_range,ALL,mean CER
+A brief + oracle boxes,82.5,88.7,21.0,82.8,67.1,0.133
+B tuned + oracle boxes,92.5,93.5,21.0,86.2,71.2,0.105
+C brief pipeline (YOLO),82.5,91.9,21.0,82.8,68.0,0.135
+D tuned pipeline (YOLO),87.5,93.5,21.0,86.2,70.3,0.107
+E tuned + unit lexicon (YOLO),87.5,93.5,88.7,86.2,89.2,0.036

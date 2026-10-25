@@ -1,0 +1,15 @@
+table,field,type,meaning,example,known_issue
+image_audit,file,string,photo file name,thyrocare_0_122.jpg,photo shows patient name -> never publish unredacted
+image_audit,layout,category,which printed report,thyroid / liver / vitamin,only 3 documents exist
+image_audit,sharpness,float,variance of Laplacian,higher = sharper,depends on image size; compare within layout
+image_audit,brightness / contrast,float,mean / std of grey levels,0-255,glare inflates brightness
+image_audit,dup_group,int,near-duplicate group (pHash <= 4),0..N,threshold is a judgement call
+image_audit,split,category,train / val / test,74 / 12 / 14,small test set -> wide uncertainty
+yolo_labels,0 test_name,box,name of the lab test,TOTAL THYROXINE (T4),long; can be cut off by the photo edge
+yolo_labels,1 value,box,measured result,2.14,MOST CRITICAL: a decimal error changes the medical meaning
+yolo_labels,2 unit,box,unit of measurement,µIU/ml,µ and l/i are hard for OCR
+yolo_labels,3 reference_range,box,normal range,0.3-5.5,"vitamin page: multi-line, printed BELOW the test name"
+output_csv,"image, row","string, int",source photo and row number,-,-
+output_csv,"test_name, value, unit, reference_range",string,OCR text per field,-,value should parse as a number
+output_csv,det_conf_min / ocr_conf_min,float,lowest YOLO / Tesseract confidence in the row,0-1 / 0-100,low -> human review
+output_csv,"needs_review, review_reason","bool, string",row flagged for a human check,missing:unit,-

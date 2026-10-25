@@ -1,0 +1,3 @@
+﻿image,row,test_name,value,unit,reference_range,det_conf_min,ocr_conf_min,needs_review,review_reason
+thyrocare_0_5357.jpg,1,-OH VITAMIN D (TOTAL),22,ng/ml,HCIENGY : <20 ngimt | UFFIGIENCY : 20-<30 ng/mi | WICIENCY : 30-100 no/mi | acary - »100 ng/ml,0.761,41.8,True,low_ocr_conf
+thyrocare_0_5357.jpg,2,TAMIN B-12,551,pa/mi,wv er ere | mal: 211-911 posymi,0.85,46.2,True,low_ocr_conf

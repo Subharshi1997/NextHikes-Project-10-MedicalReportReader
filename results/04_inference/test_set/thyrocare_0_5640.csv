@@ -1,0 +1,12 @@
+﻿image,row,test_name,value,unit,reference_range,det_conf_min,ocr_conf_min,needs_review,review_reason
+thyrocare_0_5640.jpg,1,ALKALINE PHOSPHATASE,67,U/l,45-129,0.773,50.0,True,low_ocr_conf
+thyrocare_0_5640.jpg,2,BILIRUBIN - TOTAL,0.57,mg/dl,0.3-1.2,0.87,74.0,False,
+thyrocare_0_5640.jpg,3,BILIRUBIN -DIRECT,0.18,mg/dl,<O.%,0.743,38.0,True,low_ocr_conf
+thyrocare_0_5640.jpg,4,BILIRUBIN (INDIRECT),0.39,mg/dl,0-0.9,0.825,56.0,True,low_ocr_conf
+thyrocare_0_5640.jpg,5,GAMMA GLUTAMYL TRANSFERASE (GG1I),34.3,U/l,< 55,0.796,0.0,True,low_ocr_conf
+thyrocare_0_5640.jpg,6,ASPARTATE AMINOTRANSFERASE (SGOT ),33.1,ust,< 35,0.728,34.0,True,low_ocr_conf
+thyrocare_0_5640.jpg,7,ALANINE TRANSAMINASE (SGPT),38.9,U/l,< 45,0.778,33.0,True,low_ocr_conf
+thyrocare_0_5640.jpg,8,PROTEIN - TOTAI,7.14,gm/dl,5.7-8.2,0.827,80.0,False,
+thyrocare_0_5640.jpg,9,ALBUMIN - SERUM,3.93,gm/dl,3.2-4.8,0.802,85.0,False,
+thyrocare_0_5640.jpg,10,SERUM ALB/GLOBULIN RATIO,1.22,Ratio,0.9-2,0.828,91.0,False,
+thyrocare_0_5640.jpg,11,SERUM GLOBULIN,3.21,gm/dl,2.5-3.4,0.45,33.0,True,low_detection_conf;low_ocr_conf

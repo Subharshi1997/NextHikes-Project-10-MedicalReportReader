@@ -1,0 +1,796 @@
+{
+ "classes": [
+  "test_name",
+  "value",
+  "unit",
+  "reference_range"
+ ],
+ "note": "Master annotations: one hand-checked image per report layout. Boxes are [x0,y0,x1,y1] in master pixel coordinates; text is the verified transcription (multi-line ranges joined with ' | '). 'redact' boxes cover the patient name/age, phone number, collection address, lab/barcode IDs and the signing doctors' names and signatures; they are covered in every image published with this project.",
+ "layouts": {
+  "thyroid": {
+   "master_image": "thyrocare_0_122.jpg",
+   "image_size_hw": [
+    631,
+    939
+   ],
+   "boxes": [
+    {
+     "row": 0,
+     "cls": "test_name",
+     "box": [
+      2,
+      405,
+      263,
+      420
+     ],
+     "text": "TOTAL TRIIODOTHYRONINE (T3)"
+    },
+    {
+     "row": 0,
+     "cls": "value",
+     "box": [
+      508,
+      400,
+      532,
+      410
+     ],
+     "text": "76"
+    },
+    {
+     "row": 0,
+     "cls": "unit",
+     "box": [
+      609,
+      398,
+      653,
+      410
+     ],
+     "text": "ng/dl"
+    },
+    {
+     "row": 0,
+     "cls": "reference_range",
+     "box": [
+      672,
+      397,
+      731,
+      407
+     ],
+     "text": "60-200"
+    },
+    {
+     "row": 1,
+     "cls": "test_name",
+     "box": [
+      4,
+      426,
+      195,
+      440
+     ],
+     "text": "TOTAL THYROXINE (T4)"
+    },
+    {
+     "row": 1,
+     "cls": "value",
+     "box": [
+      508,
+      419,
+      524,
+      429
+     ],
+     "text": "5"
+    },
+    {
+     "row": 1,
+     "cls": "unit",
+     "box": [
+      610,
+      416,
+      654,
+      428
+     ],
+     "text": "µg/dl"
+    },
+    {
+     "row": 1,
+     "cls": "reference_range",
+     "box": [
+      673,
+      416,
+      728,
+      426
+     ],
+     "text": "4.5-12"
+    },
+    {
+     "row": 2,
+     "cls": "test_name",
+     "box": [
+      4,
+      442,
+      328,
+      458
+     ],
+     "text": "THYROID STIMULATING HORMONE (TSH)"
+    },
+    {
+     "row": 2,
+     "cls": "value",
+     "box": [
+      508,
+      437,
+      547,
+      447
+     ],
+     "text": "2.14"
+    },
+    {
+     "row": 2,
+     "cls": "unit",
+     "box": [
+      610,
+      435,
+      667,
+      447
+     ],
+     "text": "µIU/ml"
+    },
+    {
+     "row": 2,
+     "cls": "reference_range",
+     "box": [
+      673,
+      435,
+      734,
+      445
+     ],
+     "text": "0.3-5.5"
+    }
+   ],
+   "redact": [
+    [
+     138,
+     260,
+     388,
+     328
+    ],
+    [
+     518,
+     258,
+     892,
+     306
+    ]
+   ]
+  },
+  "liver": {
+   "master_image": "thyrocare_0_1374.jpg",
+   "image_size_hw": [
+    635,
+    1068
+   ],
+   "boxes": [
+    {
+     "row": 0,
+     "cls": "test_name",
+     "box": [
+      59,
+      354,
+      278,
+      367
+     ],
+     "text": "ALKALINE PHOSPHATASE"
+    },
+    {
+     "row": 0,
+     "cls": "value",
+     "box": [
+      686,
+      355,
+      716,
+      367
+     ],
+     "text": "67"
+    },
+    {
+     "row": 0,
+     "cls": "unit",
+     "box": [
+      804,
+      355,
+      843,
+      369
+     ],
+     "text": "U/L"
+    },
+    {
+     "row": 0,
+     "cls": "reference_range",
+     "box": [
+      909,
+      356,
+      986,
+      368
+     ],
+     "text": "45 - 129"
+    },
+    {
+     "row": 1,
+     "cls": "test_name",
+     "box": [
+      59,
+      376,
+      228,
+      389
+     ],
+     "text": "BILIRUBIN - TOTAL"
+    },
+    {
+     "row": 1,
+     "cls": "value",
+     "box": [
+      686,
+      376,
+      732,
+      389
+     ],
+     "text": "0.57"
+    },
+    {
+     "row": 1,
+     "cls": "unit",
+     "box": [
+      805,
+      376,
+      861,
+      391
+     ],
+     "text": "mg/dl"
+    },
+    {
+     "row": 1,
+     "cls": "reference_range",
+     "box": [
+      910,
+      377,
+      977,
+      389
+     ],
+     "text": "0.3-1.2"
+    },
+    {
+     "row": 2,
+     "cls": "test_name",
+     "box": [
+      59,
+      398,
+      234,
+      411
+     ],
+     "text": "BILIRUBIN -DIRECT"
+    },
+    {
+     "row": 2,
+     "cls": "value",
+     "box": [
+      687,
+      397,
+      732,
+      410
+     ],
+     "text": "0.18"
+    },
+    {
+     "row": 2,
+     "cls": "unit",
+     "box": [
+      805,
+      397,
+      861,
+      412
+     ],
+     "text": "mg/dl"
+    },
+    {
+     "row": 2,
+     "cls": "reference_range",
+     "box": [
+      911,
+      398,
+      968,
+      413
+     ],
+     "text": "< 0.3"
+    },
+    {
+     "row": 3,
+     "cls": "test_name",
+     "box": [
+      58,
+      420,
+      258,
+      436
+     ],
+     "text": "BILIRUBIN (INDIRECT)"
+    },
+    {
+     "row": 3,
+     "cls": "value",
+     "box": [
+      686,
+      419,
+      732,
+      432
+     ],
+     "text": "0.39"
+    },
+    {
+     "row": 3,
+     "cls": "unit",
+     "box": [
+      806,
+      419,
+      861,
+      433
+     ],
+     "text": "mg/dl"
+    },
+    {
+     "row": 3,
+     "cls": "reference_range",
+     "box": [
+      910,
+      419,
+      963,
+      432
+     ],
+     "text": "0-0.9"
+    },
+    {
+     "row": 4,
+     "cls": "test_name",
+     "box": [
+      58,
+      441,
+      407,
+      457
+     ],
+     "text": "GAMMA GLUTAMYL TRANSFERASE (GGT)"
+    },
+    {
+     "row": 4,
+     "cls": "value",
+     "box": [
+      687,
+      441,
+      733,
+      453
+     ],
+     "text": "34.3"
+    },
+    {
+     "row": 4,
+     "cls": "unit",
+     "box": [
+      806,
+      440,
+      839,
+      455
+     ],
+     "text": "U/l"
+    },
+    {
+     "row": 4,
+     "cls": "reference_range",
+     "box": [
+      912,
+      441,
+      960,
+      453
+     ],
+     "text": "< 55"
+    },
+    {
+     "row": 5,
+     "cls": "test_name",
+     "box": [
+      56,
+      463,
+      421,
+      480
+     ],
+     "text": "ASPARTATE AMINOTRANSFERASE (SGOT )"
+    },
+    {
+     "row": 5,
+     "cls": "value",
+     "box": [
+      687,
+      462,
+      731,
+      475
+     ],
+     "text": "33.1"
+    },
+    {
+     "row": 5,
+     "cls": "unit",
+     "box": [
+      807,
+      462,
+      840,
+      476
+     ],
+     "text": "U/l"
+    },
+    {
+     "row": 5,
+     "cls": "reference_range",
+     "box": [
+      913,
+      462,
+      960,
+      474
+     ],
+     "text": "< 35"
+    },
+    {
+     "row": 6,
+     "cls": "test_name",
+     "box": [
+      55,
+      487,
+      344,
+      503
+     ],
+     "text": "ALANINE TRANSAMINASE (SGPT)"
+    },
+    {
+     "row": 6,
+     "cls": "value",
+     "box": [
+      687,
+      484,
+      733,
+      497
+     ],
+     "text": "38.9"
+    },
+    {
+     "row": 6,
+     "cls": "unit",
+     "box": [
+      807,
+      483,
+      840,
+      498
+     ],
+     "text": "U/l"
+    },
+    {
+     "row": 6,
+     "cls": "reference_range",
+     "box": [
+      914,
+      484,
+      961,
+      496
+     ],
+     "text": "< 45"
+    },
+    {
+     "row": 7,
+     "cls": "test_name",
+     "box": [
+      55,
+      511,
+      208,
+      524
+     ],
+     "text": "PROTEIN - TOTAL"
+    },
+    {
+     "row": 7,
+     "cls": "value",
+     "box": [
+      688,
+      506,
+      733,
+      518
+     ],
+     "text": "7.14"
+    },
+    {
+     "row": 7,
+     "cls": "unit",
+     "box": [
+      807,
+      505,
+      864,
+      520
+     ],
+     "text": "gm/dl"
+    },
+    {
+     "row": 7,
+     "cls": "reference_range",
+     "box": [
+      914,
+      505,
+      981,
+      518
+     ],
+     "text": "5.7-8.2"
+    },
+    {
+     "row": 8,
+     "cls": "test_name",
+     "box": [
+      54,
+      533,
+      219,
+      546
+     ],
+     "text": "ALBUMIN - SERUM"
+    },
+    {
+     "row": 8,
+     "cls": "value",
+     "box": [
+      688,
+      528,
+      734,
+      541
+     ],
+     "text": "3.93"
+    },
+    {
+     "row": 8,
+     "cls": "unit",
+     "box": [
+      808,
+      527,
+      864,
+      542
+     ],
+     "text": "gm/dl"
+    },
+    {
+     "row": 8,
+     "cls": "reference_range",
+     "box": [
+      914,
+      526,
+      982,
+      539
+     ],
+     "text": "3.2-4.8"
+    },
+    {
+     "row": 9,
+     "cls": "test_name",
+     "box": [
+      54,
+      555,
+      315,
+      571
+     ],
+     "text": "SERUM ALB/GLOBULIN RATIO"
+    },
+    {
+     "row": 9,
+     "cls": "value",
+     "box": [
+      690,
+      550,
+      734,
+      563
+     ],
+     "text": "1.22"
+    },
+    {
+     "row": 9,
+     "cls": "unit",
+     "box": [
+      809,
+      549,
+      860,
+      562
+     ],
+     "text": "Ratio"
+    },
+    {
+     "row": 9,
+     "cls": "reference_range",
+     "box": [
+      914,
+      548,
+      978,
+      561
+     ],
+     "text": "0.9 - 2"
+    },
+    {
+     "row": 10,
+     "cls": "test_name",
+     "box": [
+      53,
+      579,
+      215,
+      593
+     ],
+     "text": "SERUM GLOBULIN"
+    },
+    {
+     "row": 10,
+     "cls": "value",
+     "box": [
+      689,
+      573,
+      734,
+      585
+     ],
+     "text": "3.21"
+    },
+    {
+     "row": 10,
+     "cls": "unit",
+     "box": [
+      809,
+      571,
+      871,
+      586
+     ],
+     "text": "gm/dL"
+    },
+    {
+     "row": 10,
+     "cls": "reference_range",
+     "box": [
+      915,
+      571,
+      983,
+      583
+     ],
+     "text": "2.5-3.4"
+    }
+   ],
+   "redact": [
+    [
+     198,
+     198,
+     432,
+     270
+    ],
+    [
+     638,
+     206,
+     1032,
+     266
+    ]
+   ]
+  },
+  "vitamin": {
+   "master_image": "thyrocare_0_1001.jpg",
+   "image_size_hw": [
+    1043,
+    635
+   ],
+   "boxes": [
+    {
+     "row": 0,
+     "cls": "test_name",
+     "box": [
+      2,
+      280,
+      164,
+      292
+     ],
+     "text": "25-OH VITAMIN D (TOTAL)"
+    },
+    {
+     "row": 0,
+     "cls": "value",
+     "box": [
+      408,
+      277,
+      432,
+      289
+     ],
+     "text": "21"
+    },
+    {
+     "row": 0,
+     "cls": "unit",
+     "box": [
+      488,
+      277,
+      533,
+      289
+     ],
+     "text": "ng/ml"
+    },
+    {
+     "row": 0,
+     "cls": "reference_range",
+     "box": [
+      2,
+      304,
+      160,
+      350
+     ],
+     "text": "DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml"
+    },
+    {
+     "row": 1,
+     "cls": "test_name",
+     "box": [
+      2,
+      399,
+      93,
+      409
+     ],
+     "text": "VITAMIN B-12"
+    },
+    {
+     "row": 1,
+     "cls": "value",
+     "box": [
+      408,
+      396,
+      437,
+      408
+     ],
+     "text": "551"
+    },
+    {
+     "row": 1,
+     "cls": "unit",
+     "box": [
+      488,
+      395,
+      528,
+      408
+     ],
+     "text": "pg/ml"
+    },
+    {
+     "row": 1,
+     "cls": "reference_range",
+     "box": [
+      2,
+      423,
+      135,
+      433
+     ],
+     "text": "Normal : 211 - 911 pg/ml"
+    }
+   ],
+   "redact": [
+    [
+     84,
+     166,
+     238,
+     224
+    ],
+    [
+     366,
+     168,
+     602,
+     224
+    ],
+    [
+     178,
+     770,
+     442,
+     882
+    ],
+    [
+     440,
+     760,
+     635,
+     890
+    ]
+   ]
+  }
+ }
+}

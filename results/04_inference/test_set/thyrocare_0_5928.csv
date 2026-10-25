@@ -1,0 +1,3 @@
+﻿image,row,test_name,value,unit,reference_range,det_conf_min,ocr_conf_min,needs_review,review_reason
+thyrocare_0_5928.jpg,1,25-OH VITAMIN D (TOTAL),21,ng/ml,DEFICIENCY | <20 ngiirs | INSUFFIQIENCY ; 20-<30 ng/mi | SUFFICIENCY ; 30-100 ng/mi | TOMICTTY =. > 100 ng/ml,0.833,45.4,True,low_ocr_conf
+thyrocare_0_5928.jpg,2,VITAMIN B-12,552,pg/ml,Mormal ; 21t - 911 poym,0.832,9.0,True,low_ocr_conf

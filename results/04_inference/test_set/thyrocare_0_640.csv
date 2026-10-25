@@ -1,0 +1,4 @@
+﻿image,row,test_name,value,unit,reference_range,det_conf_min,ocr_conf_min,needs_review,review_reason
+thyrocare_0_640.jpg,1,[AL TRIIODOTHYRONINE (T3),76,ng/dl,60-200,0.796,37.0,True,low_ocr_conf
+thyrocare_0_640.jpg,2,FAL THYROXINE (T4),5,µg/dl,4.5-12,0.865,0.0,True,low_ocr_conf
+thyrocare_0_640.jpg,3,YROID STIMULATING HORMONE (TSH),2.14,µIU/ml,0.3-5.5,0.844,0.0,True,low_ocr_conf

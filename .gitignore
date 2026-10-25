@@ -1,0 +1,33 @@
+# Raw photos show a real patient's name, phone number and lab IDs -> never committed
+datasets/raw/
+datasets/*.zip
+datasets/yolo/images/
+datasets/yolo/labels/*.cache
+
+# Ultralytics previews of unredacted training photos, and duplicate weights
+results/03_training/*/train_batch*.jpg
+results/03_training/*/val_batch*.jpg
+results/03_training/*/weights/
+results/04_inference/test_images_input/
+*.pt
+!model/best.pt
+!model/yolo26n_best.pt
+# model/yolov3u_best.pt is 208 MB, over GitHub's 100 MB limit: keep it on Drive / S3
+# (python aws/s3_sync.py --bucket <b> push model) or retrain with notebook 03
+
+# Python / Jupyter clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+
+# Local helper files for the first push
+push_to_github.bat
+commit_message.txt
+push_log.txt
+*.code-workspace
+
+# Local build / training scratch
+.weights_cache/
+*.log

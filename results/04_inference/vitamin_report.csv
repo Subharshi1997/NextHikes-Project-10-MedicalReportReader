@@ -1,0 +1,3 @@
+﻿image,row,test_name,value,unit,reference_range,det_conf_min,ocr_conf_min,needs_review,review_reason
+vitamin_report.jpg,1,28-ON VITAMIN D (TOTAL),21,ne/m,Reference Range : | OGFICIENCY «<< 20 ng/mi | (NSUFFIGIENCY . 20-<36 ng/m! | SUFFICIENCY . 30-100 ng/mi | TOMICITY . » 130 ngsmi,0.819,30.0,True,low_ocr_conf
+vitamin_report.jpg,2,VITAMIN 8-12,551,pg/ml,Mormal: 231 - 8488 pose,0.785,29.0,True,low_ocr_conf

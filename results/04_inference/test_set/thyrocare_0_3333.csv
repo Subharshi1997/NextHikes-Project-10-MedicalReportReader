@@ -1,0 +1,4 @@
+﻿image,row,test_name,value,unit,reference_range,det_conf_min,ocr_conf_min,needs_review,review_reason
+thyrocare_0_3333.jpg,1,L TRIIODOTHYRONINE (T3),76,ng/dl,60-200,0.713,72.0,False,
+thyrocare_0_3333.jpg,2,L THYROXINE (T4),5,µg/dl,4.5-12,0.879,46.0,True,low_ocr_conf
+thyrocare_0_3333.jpg,3,OID STIMULATING HORMONE (TSt,2.14,µIU/ml,0.3-5.5,0.824,45.0,True,low_ocr_conf

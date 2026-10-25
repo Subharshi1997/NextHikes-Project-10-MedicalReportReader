@@ -1,0 +1,6 @@
+field,yolov3u,yolo26n
+reference_range,82.8,86.2
+test_name,72.5,87.5
+unit,83.9,88.7
+value,88.7,93.5
+ALL,82.9,89.2

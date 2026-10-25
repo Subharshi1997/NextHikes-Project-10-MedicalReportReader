@@ -1,0 +1,12 @@
+{
+ "scale": 3.0,
+ "interp": "cubic",
+ "blur": 0,
+ "binarize": true,
+ "border": 10,
+ "psm_single": 6,
+ "psm_multi": 6,
+ "value_whitelist": true,
+ "pad": 1,
+ "unit_lexicon": false
+}

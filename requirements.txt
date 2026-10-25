@@ -1,0 +1,11 @@
+# Python packages (Tesseract itself is a system program: see README "Install")
+ultralytics>=8.4.0        # YOLO26 detector (pulls in torch)
+opencv-python>=4.8        # image preprocessing
+pytesseract>=0.3.10       # Python wrapper for the Tesseract OCR engine
+numpy
+pandas
+matplotlib
+pillow
+imagehash                 # perceptual hashing for the leakage-safe split
+pymupdf>=1.24             # PDF input: render pages, read the text layer of digital PDFs (AGPL, like Ultralytics)
+nbformat                  # only needed to run the notebooks headless

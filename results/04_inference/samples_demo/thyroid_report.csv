@@ -1,0 +1,4 @@
+﻿image,row,test_name,value,unit,reference_range,det_conf_min,ocr_conf_min,needs_review,review_reason
+thyroid_report.jpg,1,TRIIODOTHYRONINE (T3),76,ng/dl,60-200,0.808,68.0,False,
+thyroid_report.jpg,2,L THYROXINE (T4),5,µg/dl,4.5-12,0.834,39.0,True,low_ocr_conf
+thyroid_report.jpg,3,OID STIMULATING HORMONE (TSH,2.14,µIU/ml,0.3-5.5,0.761,47.0,True,low_ocr_conf

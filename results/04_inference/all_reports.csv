@@ -1,0 +1,17 @@
+﻿image,row,test_name,value,unit,reference_range,det_conf_min,ocr_conf_min,needs_review,review_reason
+liver_report.jpg,1,ALKALINE PHOSPHATASE,67,U/l,45 - 129,0.855,80.0,False,
+liver_report.jpg,2,BILIRUBIN - TOTAL,0.57,mg/dl,0.3-1.2,0.813,60.0,False,
+liver_report.jpg,3,BILIRUBIN -DIRECT,0.18,mg/dl,<0.%,0.739,56.0,True,low_ocr_conf
+liver_report.jpg,4,BILIRUBIN (INDIRECT),0.39,mg/dl,0-0.9,0.795,41.0,True,low_ocr_conf
+liver_report.jpg,5,GAMMA GLUTAMYL TRANSFERASE (GGT),34.3,u/,<55,0.793,9.0,True,low_ocr_conf
+liver_report.jpg,6,ASPARTATE AMINOTRANSFERASE (SGOT ),33.1,U/l,<3§,0.633,21.0,True,low_ocr_conf
+liver_report.jpg,7,ALANINE TRANSAMINASE (SGPT),38.9,U/l,< 45,0.858,29.0,True,low_ocr_conf
+liver_report.jpg,8,PROTEIN - TOTAL,7.14,gm/dl,5.7-8.2,0.845,80.0,False,
+liver_report.jpg,9,ALBUMIN - SERUM,3.93,gm/dl,3.2-4.8,0.779,66.0,False,
+liver_report.jpg,10,SERUM ALB/GLOBULIN RATIO,1.22,Ratio,0.9-2,0.83,89.0,False,
+liver_report.jpg,11,SERUM GLOBULIN,3.21,gm/dl,2.5-3.4,0.836,17.0,True,low_ocr_conf
+thyroid_report.jpg,1,TRIIODOTHYRONINE (T3),76,ng/dl,60-200,0.808,53.0,True,low_ocr_conf
+thyroid_report.jpg,2,L THYROXINE (T4),5,µg/dl,4.5-12,0.834,35.0,True,low_ocr_conf
+thyroid_report.jpg,3,OID STIMULATING HORMONE (TSH,2.14,µIU/ml,0.3-5.5,0.761,0.0,True,low_ocr_conf
+vitamin_report.jpg,1,28-ON VITAMIN D (TOTAL),21,ne/m,Reference Range : | OGFICIENCY «<< 20 ng/mi | (NSUFFIGIENCY . 20-<36 ng/m! | SUFFICIENCY . 30-100 ng/mi | TOMICITY . » 130 ngsmi,0.819,30.0,True,low_ocr_conf
+vitamin_report.jpg,2,VITAMIN 8-12,551,pg/ml,Mormal: 231 - 8488 pose,0.785,29.0,True,low_ocr_conf

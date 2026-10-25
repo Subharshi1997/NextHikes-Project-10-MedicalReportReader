@@ -1,0 +1,1461 @@
+image,layout,field,row,truth,pred,exact,cer
+thyrocare_0_1001.jpg,vitamin,test_name,0,25-OH VITAMIN D (TOTAL),25-OH VITAMIN D (TOTAL),True,0.0
+thyrocare_0_1001.jpg,vitamin,value,0,21,23,False,0.5
+thyrocare_0_1001.jpg,vitamin,unit,0,ng/ml,ng/mi,False,0.2
+thyrocare_0_1001.jpg,vitamin,reference_range,0,DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml,OGFICIENCY :<20 ng/m! | INSUFFICIENCY ; 20-<30 pg/mi | SUFFICIENCY < 30-100 ng/m! | TORICITY . »100 naymi,False,0.16470588235294117
+thyrocare_0_1001.jpg,vitamin,test_name,1,VITAMIN B-12,VITAMIN 8-12,False,0.09090909090909091
+thyrocare_0_1001.jpg,vitamin,value,1,551,551,True,0.0
+thyrocare_0_1001.jpg,vitamin,unit,1,pg/ml,pg/ml,True,0.0
+thyrocare_0_1001.jpg,vitamin,reference_range,1,Normal : 211 - 911 pg/ml,Normal: 211 - 931 poymi,False,0.21052631578947367
+thyrocare_0_1174.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_1174.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_1174.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_1174.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_1174.jpg,thyroid,unit,1,µg/dl,yg/dl,False,0.2
+thyrocare_0_1174.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_1174.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_1174.jpg,thyroid,unit,2,µIU/ml,plU/m,False,0.5
+thyrocare_0_1174.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_122.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_122.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_122.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_122.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_122.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (714),False,0.1111111111111111
+thyrocare_0_122.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_122.jpg,thyroid,unit,1,µg/dl,ua/di,False,0.6
+thyrocare_0_122.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_122.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_122.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_122.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_122.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_123.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_123.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_123.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_123.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_123.jpg,thyroid,unit,1,µg/dl,va/di,False,0.6
+thyrocare_0_123.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_123.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_123.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_123.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_1248.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_1248.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_1248.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_1248.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_1248.jpg,thyroid,unit,1,µg/dl,ug/di,False,0.4
+thyrocare_0_1248.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_1248.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_1248.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_1248.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_1374.jpg,liver,test_name,0,ALKALINE PHOSPHATASE,ALKALINE PHOSPHATASE,True,0.0
+thyrocare_0_1374.jpg,liver,value,0,67,67,True,0.0
+thyrocare_0_1374.jpg,liver,unit,0,U/L,U/L,True,0.0
+thyrocare_0_1374.jpg,liver,reference_range,0,45 - 129,45 - 129,True,0.0
+thyrocare_0_1374.jpg,liver,test_name,1,BILIRUBIN - TOTAL,BILIRUBIN - TOTAL,True,0.0
+thyrocare_0_1374.jpg,liver,value,1,0.57,0.57,True,0.0
+thyrocare_0_1374.jpg,liver,unit,1,mg/dl,mg/dl,True,0.0
+thyrocare_0_1374.jpg,liver,reference_range,1,0.3-1.2,0.3-1.2,True,0.0
+thyrocare_0_1374.jpg,liver,test_name,2,BILIRUBIN -DIRECT,BILIRUBIN -DIRECT,True,0.0
+thyrocare_0_1374.jpg,liver,value,2,0.18,0.18,True,0.0
+thyrocare_0_1374.jpg,liver,unit,2,mg/dl,ma/dl,False,0.2
+thyrocare_0_1374.jpg,liver,reference_range,2,< 0.3,<0O.%,False,0.5
+thyrocare_0_1374.jpg,liver,test_name,3,BILIRUBIN (INDIRECT),BILIRUBIN (INDIRECT),True,0.0
+thyrocare_0_1374.jpg,liver,value,3,0.39,0.39,True,0.0
+thyrocare_0_1374.jpg,liver,unit,3,mg/dl,ma/di,False,0.4
+thyrocare_0_1374.jpg,liver,reference_range,3,0-0.9,0-0.9,True,0.0
+thyrocare_0_1374.jpg,liver,test_name,4,GAMMA GLUTAMYL TRANSFERASE (GGT),GAMMA GLUTAMYL TRANSFERASE (GGI),False,0.034482758620689655
+thyrocare_0_1374.jpg,liver,value,4,34.3,34.3,True,0.0
+thyrocare_0_1374.jpg,liver,unit,4,U/l,U/I,False,0.3333333333333333
+thyrocare_0_1374.jpg,liver,reference_range,4,< 55,< 55,True,0.0
+thyrocare_0_1374.jpg,liver,test_name,5,ASPARTATE AMINOTRANSFERASE (SGOT ),ASPARTATE AMINOTRANSFERASE (SGOT ),True,0.0
+thyrocare_0_1374.jpg,liver,value,5,33.1,33.1,True,0.0
+thyrocare_0_1374.jpg,liver,unit,5,U/l,U/I,False,0.3333333333333333
+thyrocare_0_1374.jpg,liver,reference_range,5,< 35,< 35,True,0.0
+thyrocare_0_1374.jpg,liver,test_name,6,ALANINE TRANSAMINASE (SGPT),ALANINE TRANSAMINASE (SGPT),True,0.0
+thyrocare_0_1374.jpg,liver,value,6,38.9,38.9,True,0.0
+thyrocare_0_1374.jpg,liver,unit,6,U/l,U/I,False,0.3333333333333333
+thyrocare_0_1374.jpg,liver,reference_range,6,< 45,< 45,True,0.0
+thyrocare_0_1374.jpg,liver,test_name,7,PROTEIN - TOTAL,PROTEIN - TOTAL,True,0.0
+thyrocare_0_1374.jpg,liver,value,7,7.14,7.14,True,0.0
+thyrocare_0_1374.jpg,liver,unit,7,gm/dl,qm/di,False,0.4
+thyrocare_0_1374.jpg,liver,reference_range,7,5.7-8.2,5.7-8.2,True,0.0
+thyrocare_0_1374.jpg,liver,test_name,8,ALBUMIN - SERUM,ALBUMIN - SERUM,True,0.0
+thyrocare_0_1374.jpg,liver,value,8,3.93,3.93,True,0.0
+thyrocare_0_1374.jpg,liver,unit,8,gm/dl,gm/dl,True,0.0
+thyrocare_0_1374.jpg,liver,reference_range,8,3.2-4.8,3.2-4.8,True,0.0
+thyrocare_0_1374.jpg,liver,test_name,9,SERUM ALB/GLOBULIN RATIO,SERUM ALB/GLOBULIN RATIO,True,0.0
+thyrocare_0_1374.jpg,liver,value,9,1.22,1.22,True,0.0
+thyrocare_0_1374.jpg,liver,unit,9,Ratio,Ratio,True,0.0
+thyrocare_0_1374.jpg,liver,reference_range,9,0.9 - 2,09-2,False,0.2
+thyrocare_0_1374.jpg,liver,test_name,10,SERUM GLOBULIN,SERUM GLOBULIN,True,0.0
+thyrocare_0_1374.jpg,liver,value,10,3.21,3.21,True,0.0
+thyrocare_0_1374.jpg,liver,unit,10,gm/dL,qm/dL,False,0.2
+thyrocare_0_1374.jpg,liver,reference_range,10,2.5-3.4,2.5-3.4,True,0.0
+thyrocare_0_1433.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_1433.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_1433.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_1433.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_1433.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_1433.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_1433.jpg,thyroid,unit,1,µg/dl,po/sdi,False,0.8
+thyrocare_0_1433.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_1433.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_1433.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_1433.jpg,thyroid,unit,2,µIU/ml,ylu/m,False,0.5
+thyrocare_0_1433.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_1711.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_1711.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_1711.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_1711.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_1711.jpg,thyroid,unit,1,µg/dl,ug/di,False,0.4
+thyrocare_0_1711.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_1711.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_1711.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_1711.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_1861.jpg,liver,test_name,0,ALKALINE PHOSPHATASE,ALKALINE PHOSPHATASE,True,0.0
+thyrocare_0_1861.jpg,liver,value,0,67,67,True,0.0
+thyrocare_0_1861.jpg,liver,unit,0,U/L,U/L,True,0.0
+thyrocare_0_1861.jpg,liver,reference_range,0,45 - 129,45 - 129,True,0.0
+thyrocare_0_1861.jpg,liver,test_name,1,BILIRUBIN - TOTAL,BILIRUBIN - TOTAL,True,0.0
+thyrocare_0_1861.jpg,liver,value,1,0.57,0.57,True,0.0
+thyrocare_0_1861.jpg,liver,unit,1,mg/dl,ma/dl,False,0.2
+thyrocare_0_1861.jpg,liver,reference_range,1,0.3-1.2,0.3-1.2,True,0.0
+thyrocare_0_1861.jpg,liver,test_name,2,BILIRUBIN -DIRECT,BILIRUBIN -DIRECT,True,0.0
+thyrocare_0_1861.jpg,liver,value,2,0.18,0.18,True,0.0
+thyrocare_0_1861.jpg,liver,unit,2,mg/dl,mg/dl,True,0.0
+thyrocare_0_1861.jpg,liver,reference_range,2,< 0.3,< 0.3,True,0.0
+thyrocare_0_1861.jpg,liver,test_name,3,BILIRUBIN (INDIRECT),BILIRUBIN (INDIRECT),True,0.0
+thyrocare_0_1861.jpg,liver,value,3,0.39,0.39,True,0.0
+thyrocare_0_1861.jpg,liver,unit,3,mg/dl,ma/dl,False,0.2
+thyrocare_0_1861.jpg,liver,reference_range,3,0-0.9,0-0.9,True,0.0
+thyrocare_0_1861.jpg,liver,test_name,4,GAMMA GLUTAMYL TRANSFERASE (GGT),GAMMA GLUTAMYL TRANSFERASE (GGT),True,0.0
+thyrocare_0_1861.jpg,liver,value,4,34.3,34.3,True,0.0
+thyrocare_0_1861.jpg,liver,unit,4,U/l,U/I,False,0.3333333333333333
+thyrocare_0_1861.jpg,liver,reference_range,4,< 55,< 55,True,0.0
+thyrocare_0_1861.jpg,liver,test_name,5,ASPARTATE AMINOTRANSFERASE (SGOT ),ASPARTATE AMINOTRANSFERASE (SGOT ),True,0.0
+thyrocare_0_1861.jpg,liver,value,5,33.1,33.1,True,0.0
+thyrocare_0_1861.jpg,liver,unit,5,U/l,U/,False,0.3333333333333333
+thyrocare_0_1861.jpg,liver,reference_range,5,< 35,< 35,True,0.0
+thyrocare_0_1861.jpg,liver,test_name,6,ALANINE TRANSAMINASE (SGPT),ALANINE TRANSAMINASE (SGPT),True,0.0
+thyrocare_0_1861.jpg,liver,value,6,38.9,38.9,True,0.0
+thyrocare_0_1861.jpg,liver,unit,6,U/l,U/\,False,0.3333333333333333
+thyrocare_0_1861.jpg,liver,reference_range,6,< 45,< 45,True,0.0
+thyrocare_0_1861.jpg,liver,test_name,7,PROTEIN - TOTAL,PROTEIN - TOTAL,True,0.0
+thyrocare_0_1861.jpg,liver,value,7,7.14,7.14,True,0.0
+thyrocare_0_1861.jpg,liver,unit,7,gm/dl,gm/dl,True,0.0
+thyrocare_0_1861.jpg,liver,reference_range,7,5.7-8.2,5.7-8.2,True,0.0
+thyrocare_0_1861.jpg,liver,test_name,8,ALBUMIN - SERUM,ALBUMIN - SERUM,True,0.0
+thyrocare_0_1861.jpg,liver,value,8,3.93,3.93,True,0.0
+thyrocare_0_1861.jpg,liver,unit,8,gm/dl,gm/dl,True,0.0
+thyrocare_0_1861.jpg,liver,reference_range,8,3.2-4.8,3.2-4.8,True,0.0
+thyrocare_0_1861.jpg,liver,test_name,9,SERUM ALB/GLOBULIN RATIO,SERUM ALB/GLOBULIN RATIO,True,0.0
+thyrocare_0_1861.jpg,liver,value,9,1.22,1.22,True,0.0
+thyrocare_0_1861.jpg,liver,unit,9,Ratio,Ratio,True,0.0
+thyrocare_0_1861.jpg,liver,reference_range,9,0.9 - 2,0.9-2,True,0.0
+thyrocare_0_1861.jpg,liver,test_name,10,SERUM GLOBULIN,SERUM GLOBULIN,True,0.0
+thyrocare_0_1861.jpg,liver,value,10,3.21,3.21,True,0.0
+thyrocare_0_1861.jpg,liver,unit,10,gm/dL,qm/d-,False,0.4
+thyrocare_0_1861.jpg,liver,reference_range,10,2.5-3.4,2.5-3.4,True,0.0
+thyrocare_0_1915.jpg,vitamin,test_name,0,25-OH VITAMIN D (TOTAL),25-OH VITAMIN O (TOTAL),False,0.05
+thyrocare_0_1915.jpg,vitamin,value,0,21,21,True,0.0
+thyrocare_0_1915.jpg,vitamin,unit,0,ng/ml,ng/mi,False,0.2
+thyrocare_0_1915.jpg,vitamin,reference_range,0,DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml,ORFICIENCY §. <20 ngim! | INSUFFIQJENCY : 20-<30 ng/mi | SUFFICIENCY : 30-200 ng/m! | TOXICITY ~-s: > 100 ngymi,False,0.18823529411764706
+thyrocare_0_1915.jpg,vitamin,value,1,551,51,False,0.3333333333333333
+thyrocare_0_1915.jpg,vitamin,unit,1,pg/ml,pa/mi,False,0.4
+thyrocare_0_2300.jpg,liver,test_name,0,ALKALINE PHOSPHATASE,ALKALINE PHOSPHATASE,True,0.0
+thyrocare_0_2300.jpg,liver,value,0,67,67,True,0.0
+thyrocare_0_2300.jpg,liver,unit,0,U/L,U/L,True,0.0
+thyrocare_0_2300.jpg,liver,reference_range,0,45 - 129,45 - 129,True,0.0
+thyrocare_0_2300.jpg,liver,test_name,1,BILIRUBIN - TOTAL,BILIRUBIN - TOTAL,True,0.0
+thyrocare_0_2300.jpg,liver,value,1,0.57,0.57,True,0.0
+thyrocare_0_2300.jpg,liver,unit,1,mg/dl,maq/di,False,0.6
+thyrocare_0_2300.jpg,liver,reference_range,1,0.3-1.2,0.3-1.2,True,0.0
+thyrocare_0_2300.jpg,liver,test_name,2,BILIRUBIN -DIRECT,BILIRUBIN -DIRECT,True,0.0
+thyrocare_0_2300.jpg,liver,value,2,0.18,0.18,True,0.0
+thyrocare_0_2300.jpg,liver,unit,2,mg/dl,mg/dl,True,0.0
+thyrocare_0_2300.jpg,liver,reference_range,2,< 0.3,<0.%,False,0.25
+thyrocare_0_2300.jpg,liver,test_name,3,BILIRUBIN (INDIRECT),BILIRUBIN (INDIRECT),True,0.0
+thyrocare_0_2300.jpg,liver,value,3,0.39,0.39,True,0.0
+thyrocare_0_2300.jpg,liver,unit,3,mg/dl,ma/dl,False,0.2
+thyrocare_0_2300.jpg,liver,reference_range,3,0-0.9,0-0.9,True,0.0
+thyrocare_0_2300.jpg,liver,test_name,4,GAMMA GLUTAMYL TRANSFERASE (GGT),GAMMA GLUTAMYL TRANSFERASE (GGT),True,0.0
+thyrocare_0_2300.jpg,liver,value,4,34.3,34.3,True,0.0
+thyrocare_0_2300.jpg,liver,unit,4,U/l,U/\,False,0.3333333333333333
+thyrocare_0_2300.jpg,liver,reference_range,4,< 55,< 55,True,0.0
+thyrocare_0_2300.jpg,liver,test_name,5,ASPARTATE AMINOTRANSFERASE (SGOT ),ASPARTATE AMINOTRANSFERASE (SGOT ),True,0.0
+thyrocare_0_2300.jpg,liver,value,5,33.1,33.1,True,0.0
+thyrocare_0_2300.jpg,liver,unit,5,U/l,U/l,True,0.0
+thyrocare_0_2300.jpg,liver,reference_range,5,< 35,< 35,True,0.0
+thyrocare_0_2300.jpg,liver,test_name,6,ALANINE TRANSAMINASE (SGPT),ALANINE TRANSAMINASE (SGPT),True,0.0
+thyrocare_0_2300.jpg,liver,value,6,38.9,38.9,True,0.0
+thyrocare_0_2300.jpg,liver,unit,6,U/l,U/\,False,0.3333333333333333
+thyrocare_0_2300.jpg,liver,reference_range,6,< 45,< 45,True,0.0
+thyrocare_0_2300.jpg,liver,test_name,7,PROTEIN - TOTAL,PROTEIN - TOTAL.,False,0.07692307692307693
+thyrocare_0_2300.jpg,liver,value,7,7.14,7.14,True,0.0
+thyrocare_0_2300.jpg,liver,unit,7,gm/dl,gm/dl,True,0.0
+thyrocare_0_2300.jpg,liver,reference_range,7,5.7-8.2,5.7-8.2,True,0.0
+thyrocare_0_2300.jpg,liver,test_name,8,ALBUMIN - SERUM,ALBUMIN - SERUM,True,0.0
+thyrocare_0_2300.jpg,liver,value,8,3.93,3.93,True,0.0
+thyrocare_0_2300.jpg,liver,unit,8,gm/dl,gm/dl,True,0.0
+thyrocare_0_2300.jpg,liver,reference_range,8,3.2-4.8,3.2-4.8,True,0.0
+thyrocare_0_2300.jpg,liver,test_name,9,SERUM ALB/GLOBULIN RATIO,SERUM ALB/GLOBULIN RATIO,True,0.0
+thyrocare_0_2300.jpg,liver,value,9,1.22,1.22,True,0.0
+thyrocare_0_2300.jpg,liver,unit,9,Ratio,Ratio,True,0.0
+thyrocare_0_2300.jpg,liver,reference_range,9,0.9 - 2,0.9-2,True,0.0
+thyrocare_0_2300.jpg,liver,test_name,10,SERUM GLOBULIN,SERUM GLOBULIN,True,0.0
+thyrocare_0_2300.jpg,liver,value,10,3.21,3.21,True,0.0
+thyrocare_0_2300.jpg,liver,unit,10,gm/dL,qm/dt,False,0.4
+thyrocare_0_2300.jpg,liver,reference_range,10,2.5-3.4,2.5-3.4,True,0.0
+thyrocare_0_2505.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (73),False,0.04
+thyrocare_0_2505.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_2505.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_2505.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_2505.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_2505.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_2505.jpg,thyroid,unit,1,µg/dl,va/di,False,0.6
+thyrocare_0_2505.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_2505.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_2505.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_2505.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_2505.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_2649.jpg,liver,test_name,0,ALKALINE PHOSPHATASE,ALKALINE PHOSPHATASE,True,0.0
+thyrocare_0_2649.jpg,liver,value,0,67,67,True,0.0
+thyrocare_0_2649.jpg,liver,unit,0,U/L,U/L,True,0.0
+thyrocare_0_2649.jpg,liver,reference_range,0,45 - 129,45 - 129,True,0.0
+thyrocare_0_2649.jpg,liver,test_name,1,BILIRUBIN - TOTAL,BILIRUBIN - TOTAL,True,0.0
+thyrocare_0_2649.jpg,liver,value,1,0.57,0.57,True,0.0
+thyrocare_0_2649.jpg,liver,unit,1,mg/dl,mq/dl,False,0.2
+thyrocare_0_2649.jpg,liver,reference_range,1,0.3-1.2,Q0.3-1.2,False,0.14285714285714285
+thyrocare_0_2649.jpg,liver,test_name,2,BILIRUBIN -DIRECT,BILIRUBIN -DIRECT,True,0.0
+thyrocare_0_2649.jpg,liver,value,2,0.18,0.18,True,0.0
+thyrocare_0_2649.jpg,liver,unit,2,mg/dl,ma/dl,False,0.2
+thyrocare_0_2649.jpg,liver,reference_range,2,< 0.3,< 0%,False,0.5
+thyrocare_0_2649.jpg,liver,test_name,3,BILIRUBIN (INDIRECT),BILIRUBIN (INDIRECT),True,0.0
+thyrocare_0_2649.jpg,liver,value,3,0.39,0.39,True,0.0
+thyrocare_0_2649.jpg,liver,unit,3,mg/dl,ma/dl,False,0.2
+thyrocare_0_2649.jpg,liver,reference_range,3,0-0.9,0-0.9,True,0.0
+thyrocare_0_2649.jpg,liver,test_name,4,GAMMA GLUTAMYL TRANSFERASE (GGT),GAMMA GLUTAMYL TRANSFERASE (GGT),True,0.0
+thyrocare_0_2649.jpg,liver,value,4,34.3,34.3,True,0.0
+thyrocare_0_2649.jpg,liver,unit,4,U/l,u/t,False,0.3333333333333333
+thyrocare_0_2649.jpg,liver,reference_range,4,< 55,< 55,True,0.0
+thyrocare_0_2649.jpg,liver,test_name,5,ASPARTATE AMINOTRANSFERASE (SGOT ),ASPARTATE AMINOTRANSFERASE (SGOT ),True,0.0
+thyrocare_0_2649.jpg,liver,value,5,33.1,33.1,True,0.0
+thyrocare_0_2649.jpg,liver,unit,5,U/l,U/l,True,0.0
+thyrocare_0_2649.jpg,liver,reference_range,5,< 35,< 35,True,0.0
+thyrocare_0_2649.jpg,liver,test_name,6,ALANINE TRANSAMINASE (SGPT),ALANINE TRANSAMINASE (SGPT),True,0.0
+thyrocare_0_2649.jpg,liver,value,6,38.9,38.9,True,0.0
+thyrocare_0_2649.jpg,liver,unit,6,U/l,u/\,False,0.3333333333333333
+thyrocare_0_2649.jpg,liver,reference_range,6,< 45,< 45,True,0.0
+thyrocare_0_2649.jpg,liver,test_name,7,PROTEIN - TOTAL,PROTEIN - TOTAL,True,0.0
+thyrocare_0_2649.jpg,liver,value,7,7.14,7.14,True,0.0
+thyrocare_0_2649.jpg,liver,unit,7,gm/dl,gm/dl,True,0.0
+thyrocare_0_2649.jpg,liver,reference_range,7,5.7-8.2,5.7-8.2,True,0.0
+thyrocare_0_2649.jpg,liver,test_name,8,ALBUMIN - SERUM,ALBUMIN - SERUM,True,0.0
+thyrocare_0_2649.jpg,liver,value,8,3.93,3.93,True,0.0
+thyrocare_0_2649.jpg,liver,unit,8,gm/dl,gqrn/di,False,0.8
+thyrocare_0_2649.jpg,liver,reference_range,8,3.2-4.8,3.2-4.8,True,0.0
+thyrocare_0_2649.jpg,liver,test_name,9,SERUM ALB/GLOBULIN RATIO,SERUM ALB/GLOBULIN RATIO,True,0.0
+thyrocare_0_2649.jpg,liver,value,9,1.22,1.22,True,0.0
+thyrocare_0_2649.jpg,liver,unit,9,Ratio,Ratio,True,0.0
+thyrocare_0_2649.jpg,liver,reference_range,9,0.9 - 2,0.9-2,True,0.0
+thyrocare_0_2649.jpg,liver,test_name,10,SERUM GLOBULIN,SERUM GLOBULIN,True,0.0
+thyrocare_0_2649.jpg,liver,value,10,3.21,3.21,True,0.0
+thyrocare_0_2649.jpg,liver,unit,10,gm/dL,aqm/dL,False,0.4
+thyrocare_0_2649.jpg,liver,reference_range,10,2.5-3.4,2.5-3.4,True,0.0
+thyrocare_0_2737.jpg,liver,test_name,0,ALKALINE PHOSPHATASE,ALKALINE PHOSPHATASE,True,0.0
+thyrocare_0_2737.jpg,liver,value,0,67,67,True,0.0
+thyrocare_0_2737.jpg,liver,unit,0,U/L,U/L,True,0.0
+thyrocare_0_2737.jpg,liver,reference_range,0,45 - 129,45 - 129,True,0.0
+thyrocare_0_2737.jpg,liver,test_name,1,BILIRUBIN - TOTAL,BILIRUBIN - TOTAL,True,0.0
+thyrocare_0_2737.jpg,liver,value,1,0.57,0.57,True,0.0
+thyrocare_0_2737.jpg,liver,unit,1,mg/dl,ma/dl,False,0.2
+thyrocare_0_2737.jpg,liver,reference_range,1,0.3-1.2,0.3-1.2,True,0.0
+thyrocare_0_2737.jpg,liver,test_name,2,BILIRUBIN -DIRECT,BILIRUBIN -DIRECT,True,0.0
+thyrocare_0_2737.jpg,liver,value,2,0.18,0.18,True,0.0
+thyrocare_0_2737.jpg,liver,unit,2,mg/dl,ma/dl,False,0.2
+thyrocare_0_2737.jpg,liver,reference_range,2,< 0.3,<0.%,False,0.25
+thyrocare_0_2737.jpg,liver,test_name,3,BILIRUBIN (INDIRECT),BILIRUBIN (INDIRECT),True,0.0
+thyrocare_0_2737.jpg,liver,value,3,0.39,0.39,True,0.0
+thyrocare_0_2737.jpg,liver,unit,3,mg/dl,maq/di,False,0.6
+thyrocare_0_2737.jpg,liver,reference_range,3,0-0.9,0-0.9,True,0.0
+thyrocare_0_2737.jpg,liver,test_name,4,GAMMA GLUTAMYL TRANSFERASE (GGT),GAMMA GLUTAMYL TRANSFERASE (GGT),True,0.0
+thyrocare_0_2737.jpg,liver,value,4,34.3,34.3,True,0.0
+thyrocare_0_2737.jpg,liver,unit,4,U/l,u/,False,0.3333333333333333
+thyrocare_0_2737.jpg,liver,reference_range,4,< 55,< 55,True,0.0
+thyrocare_0_2737.jpg,liver,test_name,5,ASPARTATE AMINOTRANSFERASE (SGOT ),ASPARTATE AMINOTRANSFERASE (SGOT ),True,0.0
+thyrocare_0_2737.jpg,liver,value,5,33.1,33.1,True,0.0
+thyrocare_0_2737.jpg,liver,unit,5,U/l,v/I,False,0.6666666666666666
+thyrocare_0_2737.jpg,liver,reference_range,5,< 35,<3§,False,0.3333333333333333
+thyrocare_0_2737.jpg,liver,test_name,6,ALANINE TRANSAMINASE (SGPT),ALANINE TRANSAMINASE (SGPT),True,0.0
+thyrocare_0_2737.jpg,liver,value,6,38.9,38.9,True,0.0
+thyrocare_0_2737.jpg,liver,unit,6,U/l,u/I,False,0.3333333333333333
+thyrocare_0_2737.jpg,liver,reference_range,6,< 45,< 45,True,0.0
+thyrocare_0_2737.jpg,liver,test_name,7,PROTEIN - TOTAL,PROTEIN - TOTAL,True,0.0
+thyrocare_0_2737.jpg,liver,value,7,7.14,7.14,True,0.0
+thyrocare_0_2737.jpg,liver,unit,7,gm/dl,gm/dl,True,0.0
+thyrocare_0_2737.jpg,liver,reference_range,7,5.7-8.2,5.7-8.2,True,0.0
+thyrocare_0_2737.jpg,liver,test_name,8,ALBUMIN - SERUM,ALBUMIN - SERUM,True,0.0
+thyrocare_0_2737.jpg,liver,value,8,3.93,3.93,True,0.0
+thyrocare_0_2737.jpg,liver,unit,8,gm/dl,gm/di,False,0.2
+thyrocare_0_2737.jpg,liver,reference_range,8,3.2-4.8,3.2-4.8,True,0.0
+thyrocare_0_2737.jpg,liver,test_name,9,SERUM ALB/GLOBULIN RATIO,SERUM ALB/GLOBULIN RATIO,True,0.0
+thyrocare_0_2737.jpg,liver,value,9,1.22,1.22,True,0.0
+thyrocare_0_2737.jpg,liver,unit,9,Ratio,Ratio,True,0.0
+thyrocare_0_2737.jpg,liver,reference_range,9,0.9 - 2,0.9-2,True,0.0
+thyrocare_0_2737.jpg,liver,test_name,10,SERUM GLOBULIN,SERUM GLOBULIN,True,0.0
+thyrocare_0_2737.jpg,liver,value,10,3.21,3.21,True,0.0
+thyrocare_0_2737.jpg,liver,unit,10,gm/dL,gm/dL,True,0.0
+thyrocare_0_2737.jpg,liver,reference_range,10,2.5-3.4,2.5-3.4,True,0.0
+thyrocare_0_2838.jpg,vitamin,test_name,0,25-OH VITAMIN D (TOTAL),28-OM VITAMIN D (TOTAL),False,0.1
+thyrocare_0_2838.jpg,vitamin,value,0,21,23,False,0.5
+thyrocare_0_2838.jpg,vitamin,unit,0,ng/ml,ne/m,False,0.4
+thyrocare_0_2838.jpg,vitamin,reference_range,0,DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml,DEFICIENCY: <20 ngym | INSUFFICIENCY ; 20-<36 ngsmi | SUPFICIENCY - 30-200 ng/mt | TOMCTTY =. > 100 nay,False,0.2235294117647059
+thyrocare_0_2838.jpg,vitamin,test_name,1,VITAMIN B-12,VITAMIN 8-12,False,0.09090909090909091
+thyrocare_0_2838.jpg,vitamin,value,1,551,551,True,0.0
+thyrocare_0_2838.jpg,vitamin,unit,1,pg/ml,pofmi,False,0.6
+thyrocare_0_2838.jpg,vitamin,reference_range,1,Normal : 211 - 911 pg/ml,SMormal: 251-581 posme,False,0.42105263157894735
+thyrocare_0_2841.jpg,liver,test_name,0,ALKALINE PHOSPHATASE,ALKALINE PHOSPHATASE,True,0.0
+thyrocare_0_2841.jpg,liver,value,0,67,67,True,0.0
+thyrocare_0_2841.jpg,liver,unit,0,U/L,U/L,True,0.0
+thyrocare_0_2841.jpg,liver,reference_range,0,45 - 129,45 - 129,True,0.0
+thyrocare_0_2841.jpg,liver,test_name,1,BILIRUBIN - TOTAL,BILIRUBIN - TOTAL,True,0.0
+thyrocare_0_2841.jpg,liver,value,1,0.57,0.57,True,0.0
+thyrocare_0_2841.jpg,liver,unit,1,mg/dl,mq/dl,False,0.2
+thyrocare_0_2841.jpg,liver,reference_range,1,0.3-1.2,0.3-1.2,True,0.0
+thyrocare_0_2841.jpg,liver,test_name,2,BILIRUBIN -DIRECT,BILIRUBIN -DIRECT,True,0.0
+thyrocare_0_2841.jpg,liver,value,2,0.18,0.18,True,0.0
+thyrocare_0_2841.jpg,liver,unit,2,mg/dl,ma/di,False,0.4
+thyrocare_0_2841.jpg,liver,reference_range,2,< 0.3,<O%,False,0.75
+thyrocare_0_2841.jpg,liver,test_name,3,BILIRUBIN (INDIRECT),BILIRUBIN (INDIRECT),True,0.0
+thyrocare_0_2841.jpg,liver,value,3,0.39,0.39,True,0.0
+thyrocare_0_2841.jpg,liver,unit,3,mg/dl,ma/di,False,0.4
+thyrocare_0_2841.jpg,liver,reference_range,3,0-0.9,0-0.9,True,0.0
+thyrocare_0_2841.jpg,liver,test_name,4,GAMMA GLUTAMYL TRANSFERASE (GGT),GAMMA GLUTAMYL TRANSFERASE (GGT),True,0.0
+thyrocare_0_2841.jpg,liver,value,4,34.3,34.3,True,0.0
+thyrocare_0_2841.jpg,liver,unit,4,U/l,U/I,False,0.3333333333333333
+thyrocare_0_2841.jpg,liver,reference_range,4,< 55,< 55,True,0.0
+thyrocare_0_2841.jpg,liver,test_name,5,ASPARTATE AMINOTRANSFERASE (SGOT ),ASPARTATE AMINOTRANSFERASE (SGOT ),True,0.0
+thyrocare_0_2841.jpg,liver,value,5,33.1,33.1,True,0.0
+thyrocare_0_2841.jpg,liver,unit,5,U/l,U/I,False,0.3333333333333333
+thyrocare_0_2841.jpg,liver,reference_range,5,< 35,< 35,True,0.0
+thyrocare_0_2841.jpg,liver,test_name,6,ALANINE TRANSAMINASE (SGPT),ALANINE TRANSAMINASE (SGPT),True,0.0
+thyrocare_0_2841.jpg,liver,value,6,38.9,38.9,True,0.0
+thyrocare_0_2841.jpg,liver,unit,6,U/l,U/I,False,0.3333333333333333
+thyrocare_0_2841.jpg,liver,reference_range,6,< 45,< 45,True,0.0
+thyrocare_0_2841.jpg,liver,test_name,7,PROTEIN - TOTAL,PROTEIN - TOTAL,True,0.0
+thyrocare_0_2841.jpg,liver,value,7,7.14,7.14,True,0.0
+thyrocare_0_2841.jpg,liver,unit,7,gm/dl,gm/di,False,0.2
+thyrocare_0_2841.jpg,liver,reference_range,7,5.7-8.2,5.7-8.2,True,0.0
+thyrocare_0_2841.jpg,liver,test_name,8,ALBUMIN - SERUM,ALBUMIN - SERUM,True,0.0
+thyrocare_0_2841.jpg,liver,value,8,3.93,3.93,True,0.0
+thyrocare_0_2841.jpg,liver,unit,8,gm/dl,qm/di,False,0.4
+thyrocare_0_2841.jpg,liver,reference_range,8,3.2-4.8,3.2-4.8,True,0.0
+thyrocare_0_2841.jpg,liver,test_name,9,SERUM ALB/GLOBULIN RATIO,SERUM ALB/GLOBULIN RATIO,True,0.0
+thyrocare_0_2841.jpg,liver,value,9,1.22,1.22,True,0.0
+thyrocare_0_2841.jpg,liver,unit,9,Ratio,Ratio,True,0.0
+thyrocare_0_2841.jpg,liver,reference_range,9,0.9 - 2,0.9-2,True,0.0
+thyrocare_0_2841.jpg,liver,test_name,10,SERUM GLOBULIN,SERUM GLOBULIN,True,0.0
+thyrocare_0_2841.jpg,liver,value,10,3.21,3.21,True,0.0
+thyrocare_0_2841.jpg,liver,unit,10,gm/dL,qm/dt,False,0.4
+thyrocare_0_2841.jpg,liver,reference_range,10,2.5-3.4,2.5-3.4,True,0.0
+thyrocare_0_2866.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_2866.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_2866.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_2866.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_2866.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_2866.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_2866.jpg,thyroid,unit,1,µg/dl,ua/dl,False,0.4
+thyrocare_0_2866.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_2866.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_2866.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_2866.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_2866.jpg,thyroid,reference_range,2,0.3-5.5,0.3-S.5,False,0.14285714285714285
+thyrocare_0_2885.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_2885.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_2885.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_2885.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_2885.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (14),False,0.05555555555555555
+thyrocare_0_2885.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_2885.jpg,thyroid,unit,1,µg/dl,uq/di,False,0.6
+thyrocare_0_2885.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_2885.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_2885.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_2885.jpg,thyroid,unit,2,µIU/ml,ulU/ml,False,0.3333333333333333
+thyrocare_0_2885.jpg,thyroid,reference_range,2,0.3-5.5,0.3-S.5,False,0.14285714285714285
+thyrocare_0_2987.jpg,vitamin,test_name,0,25-OH VITAMIN D (TOTAL),2S-OH VITAMIN D (TOTAL),False,0.05
+thyrocare_0_2987.jpg,vitamin,value,0,21,21,True,0.0
+thyrocare_0_2987.jpg,vitamin,unit,0,ng/ml,ng/mi,False,0.2
+thyrocare_0_2987.jpg,vitamin,reference_range,0,DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml,Oeracrency == <20 ng/mi | SRSUFFIGIENCY : 20-<30 ng/mi | SUFFICIENCY § : 30-100 ng/mi | ToMcTy =: > 100 ngym!,False,0.2235294117647059
+thyrocare_0_2987.jpg,vitamin,test_name,1,VITAMIN B-12,VITAMIN B-12,True,0.0
+thyrocare_0_2987.jpg,vitamin,value,1,551,553,False,0.3333333333333333
+thyrocare_0_2987.jpg,vitamin,unit,1,pg/ml,pa/me,False,0.4
+thyrocare_0_2987.jpg,vitamin,reference_range,1,Normal : 211 - 911 pg/ml,Normal: 231-511 pofmi,False,0.2631578947368421
+thyrocare_0_3414.jpg,vitamin,test_name,0,25-OH VITAMIN D (TOTAL),25-OW VITAMIN D (TOTAL),False,0.05
+thyrocare_0_3414.jpg,vitamin,value,0,21,2,False,0.5
+thyrocare_0_3414.jpg,vitamin,unit,0,ng/ml,ng/ml,True,0.0
+thyrocare_0_3414.jpg,vitamin,reference_range,0,DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml,ORFICIENGY << 20 ng/mi | INSUETIQIRNCY ; 20-<30 ng/mi | SUFFICIENCY «+ 30-200 ro/rrt | TOMICTTY »100 agymi,False,0.3058823529411765
+thyrocare_0_3414.jpg,vitamin,test_name,1,VITAMIN B-12,VITAMIN B-12,True,0.0
+thyrocare_0_3414.jpg,vitamin,value,1,551,5513,False,0.3333333333333333
+thyrocare_0_3414.jpg,vitamin,unit,1,pg/ml,pgsend,False,0.8
+thyrocare_0_3414.jpg,vitamin,reference_range,1,Normal : 211 - 911 pg/ml,Norma. 211 - 912 pgim!,False,0.2631578947368421
+thyrocare_0_3439.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_3439.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_3439.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_3439.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_3439.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_3439.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_3439.jpg,thyroid,unit,1,µg/dl,pe/di,False,0.6
+thyrocare_0_3439.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_3439.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_3439.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_3439.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_3439.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_3753.jpg,vitamin,value,0,21,22,False,0.5
+thyrocare_0_3753.jpg,vitamin,unit,0,ng/ml,ng/mi,False,0.2
+thyrocare_0_3753.jpg,vitamin,value,1,551,2,False,1.0
+thyrocare_0_3753.jpg,vitamin,unit,1,pg/ml,po/mi,False,0.4
+thyrocare_0_3804.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_3804.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_3804.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_3804.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_3804.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_3804.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_3804.jpg,thyroid,unit,1,µg/dl,ve/di,False,0.6
+thyrocare_0_3804.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_3804.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_3804.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_3804.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_3804.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_3813.jpg,liver,test_name,0,ALKALINE PHOSPHATASE,ALKALINE PHOSPHATASE,True,0.0
+thyrocare_0_3813.jpg,liver,value,0,67,67,True,0.0
+thyrocare_0_3813.jpg,liver,unit,0,U/L,U/L,True,0.0
+thyrocare_0_3813.jpg,liver,reference_range,0,45 - 129,45 - 129,True,0.0
+thyrocare_0_3813.jpg,liver,test_name,1,BILIRUBIN - TOTAL,BILIRUBIN - TOTAL,True,0.0
+thyrocare_0_3813.jpg,liver,value,1,0.57,0.57,True,0.0
+thyrocare_0_3813.jpg,liver,unit,1,mg/dl,mg/dl,True,0.0
+thyrocare_0_3813.jpg,liver,reference_range,1,0.3-1.2,0.3-1.2,True,0.0
+thyrocare_0_3813.jpg,liver,test_name,2,BILIRUBIN -DIRECT,BILIRUBIN -DIRECT,True,0.0
+thyrocare_0_3813.jpg,liver,value,2,0.18,0.18,True,0.0
+thyrocare_0_3813.jpg,liver,unit,2,mg/dl,mg/dl,True,0.0
+thyrocare_0_3813.jpg,liver,reference_range,2,< 0.3,<0.%,False,0.25
+thyrocare_0_3813.jpg,liver,test_name,3,BILIRUBIN (INDIRECT),BILIRUBIN (INDIRECT),True,0.0
+thyrocare_0_3813.jpg,liver,value,3,0.39,0.39,True,0.0
+thyrocare_0_3813.jpg,liver,unit,3,mg/dl,ma/d!,False,0.4
+thyrocare_0_3813.jpg,liver,reference_range,3,0-0.9,0-0.9,True,0.0
+thyrocare_0_3813.jpg,liver,test_name,4,GAMMA GLUTAMYL TRANSFERASE (GGT),GAMMA GLUTAMYL TRANSFERASE (GGT),True,0.0
+thyrocare_0_3813.jpg,liver,value,4,34.3,34.3,True,0.0
+thyrocare_0_3813.jpg,liver,unit,4,U/l,U/I,False,0.3333333333333333
+thyrocare_0_3813.jpg,liver,reference_range,4,< 55,< 55,True,0.0
+thyrocare_0_3813.jpg,liver,test_name,5,ASPARTATE AMINOTRANSFERASE (SGOT ),ASPARTATE AMINOTRANSFERASE (SGOT ),True,0.0
+thyrocare_0_3813.jpg,liver,value,5,33.1,33.1,True,0.0
+thyrocare_0_3813.jpg,liver,unit,5,U/l,U/I,False,0.3333333333333333
+thyrocare_0_3813.jpg,liver,reference_range,5,< 35,< 35,True,0.0
+thyrocare_0_3813.jpg,liver,test_name,6,ALANINE TRANSAMINASE (SGPT),ALANINE TRANSAMINASE (SGPT),True,0.0
+thyrocare_0_3813.jpg,liver,value,6,38.9,38.9,True,0.0
+thyrocare_0_3813.jpg,liver,unit,6,U/l,U/I,False,0.3333333333333333
+thyrocare_0_3813.jpg,liver,reference_range,6,< 45,< 45,True,0.0
+thyrocare_0_3813.jpg,liver,test_name,7,PROTEIN - TOTAL,PROTEIN - TOTAL,True,0.0
+thyrocare_0_3813.jpg,liver,value,7,7.14,7.14,True,0.0
+thyrocare_0_3813.jpg,liver,unit,7,gm/dl,gm/dl,True,0.0
+thyrocare_0_3813.jpg,liver,reference_range,7,5.7-8.2,5.7-8.2,True,0.0
+thyrocare_0_3813.jpg,liver,test_name,8,ALBUMIN - SERUM,ALBUMIN - SERUM,True,0.0
+thyrocare_0_3813.jpg,liver,value,8,3.93,3.93,True,0.0
+thyrocare_0_3813.jpg,liver,unit,8,gm/dl,gm/dil,False,0.2
+thyrocare_0_3813.jpg,liver,reference_range,8,3.2-4.8,3.2-4.8,True,0.0
+thyrocare_0_3813.jpg,liver,test_name,9,SERUM ALB/GLOBULIN RATIO,SERUM ALB/GLOBULIN RATIO,True,0.0
+thyrocare_0_3813.jpg,liver,value,9,1.22,1.22,True,0.0
+thyrocare_0_3813.jpg,liver,unit,9,Ratio,Ratio,True,0.0
+thyrocare_0_3813.jpg,liver,reference_range,9,0.9 - 2,0.9-2,True,0.0
+thyrocare_0_3813.jpg,liver,test_name,10,SERUM GLOBULIN,SERUM GLOBULIN ©,False,0.07692307692307693
+thyrocare_0_3813.jpg,liver,value,10,3.21,3.21,True,0.0
+thyrocare_0_3813.jpg,liver,unit,10,gm/dL,qm/db,False,0.4
+thyrocare_0_3813.jpg,liver,reference_range,10,2.5-3.4,2.5-3.4,True,0.0
+thyrocare_0_421.jpg,liver,test_name,0,ALKALINE PHOSPHATASE,ALKALINE PHOSPHATASE,True,0.0
+thyrocare_0_421.jpg,liver,value,0,67,67,True,0.0
+thyrocare_0_421.jpg,liver,unit,0,U/L,U/L,True,0.0
+thyrocare_0_421.jpg,liver,reference_range,0,45 - 129,45 - 129,True,0.0
+thyrocare_0_421.jpg,liver,test_name,1,BILIRUBIN - TOTAL,BILIRUBIN - TOTAL,True,0.0
+thyrocare_0_421.jpg,liver,value,1,0.57,0.57,True,0.0
+thyrocare_0_421.jpg,liver,unit,1,mg/dl,ma/dl,False,0.2
+thyrocare_0_421.jpg,liver,reference_range,1,0.3-1.2,0.3-1.2,True,0.0
+thyrocare_0_421.jpg,liver,test_name,2,BILIRUBIN -DIRECT,BILIRUBIN -DIRECT,True,0.0
+thyrocare_0_421.jpg,liver,value,2,0.18,0.18,True,0.0
+thyrocare_0_421.jpg,liver,unit,2,mg/dl,mag/dl,False,0.2
+thyrocare_0_421.jpg,liver,reference_range,2,< 0.3,< O.%,False,0.5
+thyrocare_0_421.jpg,liver,test_name,3,BILIRUBIN (INDIRECT),BILIRUBIN (INDIRECT),True,0.0
+thyrocare_0_421.jpg,liver,value,3,0.39,0.39,True,0.0
+thyrocare_0_421.jpg,liver,unit,3,mg/dl,maq/di,False,0.6
+thyrocare_0_421.jpg,liver,reference_range,3,0-0.9,0-0.9,True,0.0
+thyrocare_0_421.jpg,liver,test_name,4,GAMMA GLUTAMYL TRANSFERASE (GGT),GAMMA GLUTAMYL TRANSFERASE (GGT),True,0.0
+thyrocare_0_421.jpg,liver,value,4,34.3,34.3,True,0.0
+thyrocare_0_421.jpg,liver,unit,4,U/l,U/I,False,0.3333333333333333
+thyrocare_0_421.jpg,liver,reference_range,4,< 55,< 55,True,0.0
+thyrocare_0_421.jpg,liver,test_name,5,ASPARTATE AMINOTRANSFERASE (SGOT ),ASPARTATE AMINOTRANSFERASE (SGOT ),True,0.0
+thyrocare_0_421.jpg,liver,value,5,33.1,33.1,True,0.0
+thyrocare_0_421.jpg,liver,unit,5,U/l,U/I,False,0.3333333333333333
+thyrocare_0_421.jpg,liver,reference_range,5,< 35,< 35,True,0.0
+thyrocare_0_421.jpg,liver,test_name,6,ALANINE TRANSAMINASE (SGPT),ALANINE TRANSAMINASE (SGPT),True,0.0
+thyrocare_0_421.jpg,liver,value,6,38.9,38.9,True,0.0
+thyrocare_0_421.jpg,liver,unit,6,U/l,U/I,False,0.3333333333333333
+thyrocare_0_421.jpg,liver,reference_range,6,< 45,< 45,True,0.0
+thyrocare_0_421.jpg,liver,test_name,7,PROTEIN - TOTAL,PROTEIN - TOTAI,False,0.07692307692307693
+thyrocare_0_421.jpg,liver,value,7,7.14,7.14,True,0.0
+thyrocare_0_421.jpg,liver,unit,7,gm/dl,gm/dl,True,0.0
+thyrocare_0_421.jpg,liver,reference_range,7,5.7-8.2,S.7-8.2,False,0.14285714285714285
+thyrocare_0_421.jpg,liver,test_name,8,ALBUMIN - SERUM,ALBUMIN - SERUM,True,0.0
+thyrocare_0_421.jpg,liver,value,8,3.93,3.93,True,0.0
+thyrocare_0_421.jpg,liver,unit,8,gm/dl,gm/di,False,0.2
+thyrocare_0_421.jpg,liver,reference_range,8,3.2-4.8,3.2-4.8,True,0.0
+thyrocare_0_421.jpg,liver,test_name,9,SERUM ALB/GLOBULIN RATIO,SERUM ALB/GLOBULIN RATIO,True,0.0
+thyrocare_0_421.jpg,liver,value,9,1.22,1.22,True,0.0
+thyrocare_0_421.jpg,liver,unit,9,Ratio,Ratio,True,0.0
+thyrocare_0_421.jpg,liver,reference_range,9,0.9 - 2,0.9-2,True,0.0
+thyrocare_0_421.jpg,liver,test_name,10,SERUM GLOBULIN,SERUM GLOBULIN,True,0.0
+thyrocare_0_421.jpg,liver,value,10,3.21,3.21,True,0.0
+thyrocare_0_421.jpg,liver,unit,10,gm/dL,qm/dL,False,0.2
+thyrocare_0_421.jpg,liver,reference_range,10,2.5-3.4,2.5-3.4,True,0.0
+thyrocare_0_4468.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_4468.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_4468.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_4468.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_4468.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_4468.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_4468.jpg,thyroid,unit,1,µg/dl,ya/dl,False,0.4
+thyrocare_0_4468.jpg,thyroid,reference_range,1,4.5-12,45-12,False,0.16666666666666666
+thyrocare_0_4468.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_4468.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_4468.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_4468.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_447.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_447.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_447.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_447.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_447.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_447.jpg,thyroid,value,1,5,3,False,1.0
+thyrocare_0_447.jpg,thyroid,unit,1,µg/dl,pa/di,False,0.6
+thyrocare_0_447.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_447.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_447.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_447.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_447.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_4498.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_4498.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_4498.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_4498.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_4498.jpg,thyroid,unit,1,µg/dl,pa/di,False,0.6
+thyrocare_0_4498.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_4498.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_4498.jpg,thyroid,unit,2,µIU/ml,plu/m,False,0.5
+thyrocare_0_4498.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_4523.jpg,vitamin,value,0,21,21,True,0.0
+thyrocare_0_4523.jpg,vitamin,unit,0,ng/ml,ng/ml,True,0.0
+thyrocare_0_4523.jpg,vitamin,value,1,551,5523,False,0.6666666666666666
+thyrocare_0_4523.jpg,vitamin,unit,1,pg/ml,pg/mi,False,0.2
+thyrocare_0_4557.jpg,vitamin,test_name,0,25-OH VITAMIN D (TOTAL),25-08 VITAMIN D (TOTAL),False,0.1
+thyrocare_0_4557.jpg,vitamin,value,0,21,23,False,0.5
+thyrocare_0_4557.jpg,vitamin,unit,0,ng/ml,ng/ml,True,0.0
+thyrocare_0_4557.jpg,vitamin,reference_range,0,DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml,OGFICIENCY =| <20 nym | INSUPFICIENCY : 20-<30 ng | SUFFICIENCY - 30-100 ng/mi | Towary > »300 ngim!,False,0.25882352941176473
+thyrocare_0_4557.jpg,vitamin,test_name,1,VITAMIN B-12,VITAMIN 8-12,False,0.09090909090909091
+thyrocare_0_4557.jpg,vitamin,value,1,551,51,False,0.3333333333333333
+thyrocare_0_4557.jpg,vitamin,unit,1,pg/ml,pos,False,0.8
+thyrocare_0_4557.jpg,vitamin,reference_range,1,Normal : 211 - 911 pg/ml,Normal: 211-928 posmi,False,0.2631578947368421
+thyrocare_0_4618.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_4618.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_4618.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_4618.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_4618.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (TS),False,0.05555555555555555
+thyrocare_0_4618.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_4618.jpg,thyroid,unit,1,µg/dl,pg/di,False,0.4
+thyrocare_0_4618.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_4618.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_4618.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_4618.jpg,thyroid,unit,2,µIU/ml,wlu/mi,False,0.5
+thyrocare_0_4618.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_4670.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_4670.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_4670.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_4670.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_4670.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_4670.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_4670.jpg,thyroid,unit,1,µg/dl,ua/dl,False,0.4
+thyrocare_0_4670.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_4670.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_4670.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_4670.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_4670.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_4683.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_4683.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_4683.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_4683.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_4683.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (14),False,0.05555555555555555
+thyrocare_0_4683.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_4683.jpg,thyroid,unit,1,µg/dl,va/di,False,0.6
+thyrocare_0_4683.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_4683.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_4683.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_4683.jpg,thyroid,unit,2,µIU/ml,piv/mi,False,0.5
+thyrocare_0_4683.jpg,thyroid,reference_range,2,0.3-5.5,0.3-S.5,False,0.14285714285714285
+thyrocare_0_4748.jpg,vitamin,test_name,0,25-OH VITAMIN D (TOTAL),25-OH VITAMIN D (TOTAL),True,0.0
+thyrocare_0_4748.jpg,vitamin,value,0,21,21,True,0.0
+thyrocare_0_4748.jpg,vitamin,unit,0,ng/ml,ne/m,False,0.4
+thyrocare_0_4748.jpg,vitamin,reference_range,0,DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml,ORFICIENCY | <20 ngémi | INSUPFIGIBNCY : 20-< 30 ng/mt | SUFFICIENCY <= 30-200 ng/mt | TOXICITY > »100 ngymi,False,0.2
+thyrocare_0_4748.jpg,vitamin,test_name,1,VITAMIN B-12,VITAMIN B-12,True,0.0
+thyrocare_0_4748.jpg,vitamin,value,1,551,551,True,0.0
+thyrocare_0_4748.jpg,vitamin,unit,1,pg/ml,po/mi,False,0.4
+thyrocare_0_4748.jpg,vitamin,reference_range,1,Normal : 211 - 911 pg/ml,Normal: 211-511 pgrmi,False,0.15789473684210525
+thyrocare_0_4790.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_4790.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_4790.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_4790.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_4790.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (14),False,0.05555555555555555
+thyrocare_0_4790.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_4790.jpg,thyroid,unit,1,µg/dl,po/di,False,0.6
+thyrocare_0_4790.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_4790.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_4790.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_4790.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_4790.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_5074.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_5074.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_5074.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_5074.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_5074.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_5074.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_5074.jpg,thyroid,unit,1,µg/dl,vg/dl,False,0.2
+thyrocare_0_5074.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_5074.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_5074.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_5074.jpg,thyroid,unit,2,µIU/ml,piu/mi,False,0.3333333333333333
+thyrocare_0_5074.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_511.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_511.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_511.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_511.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_511.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_511.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_511.jpg,thyroid,unit,1,µg/dl,va/di,False,0.6
+thyrocare_0_511.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_511.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_511.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_511.jpg,thyroid,unit,2,µIU/ml,plu/ml,False,0.3333333333333333
+thyrocare_0_511.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_517.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_517.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_517.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_517.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_517.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (14),False,0.05555555555555555
+thyrocare_0_517.jpg,thyroid,value,1,5,,False,1.0
+thyrocare_0_517.jpg,thyroid,unit,1,µg/dl,pa/di,False,0.6
+thyrocare_0_517.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_517.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH).,False,0.03333333333333333
+thyrocare_0_517.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_517.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_517.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_532.jpg,vitamin,test_name,0,25-OH VITAMIN D (TOTAL),25-OH VITAMIN D (TOTAL),True,0.0
+thyrocare_0_532.jpg,vitamin,value,0,21,21,True,0.0
+thyrocare_0_532.jpg,vitamin,unit,0,ng/ml,ng/mi,False,0.2
+thyrocare_0_532.jpg,vitamin,reference_range,0,DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml,DEFICIENCY 1 <20 ng/mi | INSUFFIQIENCY . 20-<30 ng/il | SUFFICIENCY ~ 30-100 ng/mi | TOXICITY > 2100 agemi,False,0.1411764705882353
+thyrocare_0_532.jpg,vitamin,test_name,1,VITAMIN B-12,VITAMIN B-12,True,0.0
+thyrocare_0_532.jpg,vitamin,value,1,551,551,True,0.0
+thyrocare_0_532.jpg,vitamin,unit,1,pg/ml,po/mi,False,0.4
+thyrocare_0_532.jpg,vitamin,reference_range,1,Normal : 211 - 911 pg/ml,Normal: 211-511 pgm,False,0.15789473684210525
+thyrocare_0_5338.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRITODOTHYRONINE (T3),False,0.04
+thyrocare_0_5338.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_5338.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_5338.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_5338.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_5338.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_5338.jpg,thyroid,unit,1,µg/dl,ug/l,False,0.4
+thyrocare_0_5338.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_5338.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_5338.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_5338.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_5338.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_5503.jpg,vitamin,test_name,0,25-OH VITAMIN D (TOTAL),25-OH VITAMIN 0 (TOTAL),False,0.05
+thyrocare_0_5503.jpg,vitamin,value,0,21,21,True,0.0
+thyrocare_0_5503.jpg,vitamin,unit,0,ng/ml,ng/mi,False,0.2
+thyrocare_0_5503.jpg,vitamin,reference_range,0,DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml,DEFICIENCY: <20 ng/mi | INSUFFIQIENCY : 20-<30 ng/mi | SUFFICIENCY : 30-100 ng/m! | TOMIcITY «=. > 100 ngymi,False,0.11764705882352941
+thyrocare_0_5503.jpg,vitamin,test_name,1,VITAMIN B-12,VITAMIN B-12,True,0.0
+thyrocare_0_5503.jpg,vitamin,value,1,551,351,False,0.3333333333333333
+thyrocare_0_5503.jpg,vitamin,unit,1,pg/ml,po/mi,False,0.4
+thyrocare_0_5503.jpg,vitamin,reference_range,1,Normal : 211 - 911 pg/ml,Normal: 231-911 poym),False,0.21052631578947367
+thyrocare_0_5608.jpg,vitamin,value,0,21,2,False,0.5
+thyrocare_0_5608.jpg,vitamin,unit,0,ng/ml,og / rm,False,0.6
+thyrocare_0_5608.jpg,vitamin,value,1,551,251,False,0.3333333333333333
+thyrocare_0_5608.jpg,vitamin,unit,1,pg/ml,~ poyent,False,1.0
+thyrocare_0_5816.jpg,liver,test_name,0,ALKALINE PHOSPHATASE,ALKALINE PHOSPHATASE,True,0.0
+thyrocare_0_5816.jpg,liver,value,0,67,67,True,0.0
+thyrocare_0_5816.jpg,liver,unit,0,U/L,U/L,True,0.0
+thyrocare_0_5816.jpg,liver,reference_range,0,45 - 129,45 - 129,True,0.0
+thyrocare_0_5816.jpg,liver,test_name,1,BILIRUBIN - TOTAL,BILIRUBIN - TOTAL,True,0.0
+thyrocare_0_5816.jpg,liver,value,1,0.57,0.57,True,0.0
+thyrocare_0_5816.jpg,liver,unit,1,mg/dl,mq/dl,False,0.2
+thyrocare_0_5816.jpg,liver,reference_range,1,0.3-1.2,0.3-1.2,True,0.0
+thyrocare_0_5816.jpg,liver,test_name,2,BILIRUBIN -DIRECT,BILIRUBIN -DIRECT,True,0.0
+thyrocare_0_5816.jpg,liver,value,2,0.18,0.18,True,0.0
+thyrocare_0_5816.jpg,liver,unit,2,mg/dl,ma/di,False,0.4
+thyrocare_0_5816.jpg,liver,reference_range,2,< 0.3,<0O.%,False,0.5
+thyrocare_0_5816.jpg,liver,test_name,3,BILIRUBIN (INDIRECT),BILIRUBIN (INDIRECT),True,0.0
+thyrocare_0_5816.jpg,liver,value,3,0.39,0.39,True,0.0
+thyrocare_0_5816.jpg,liver,unit,3,mg/dl,ma/dl,False,0.2
+thyrocare_0_5816.jpg,liver,reference_range,3,0-0.9,0-0.9,True,0.0
+thyrocare_0_5816.jpg,liver,test_name,4,GAMMA GLUTAMYL TRANSFERASE (GGT),GAMMA GLUTAMYL TRANSFERASE (GGT),True,0.0
+thyrocare_0_5816.jpg,liver,value,4,34.3,34.3,True,0.0
+thyrocare_0_5816.jpg,liver,unit,4,U/l,U/I,False,0.3333333333333333
+thyrocare_0_5816.jpg,liver,reference_range,4,< 55,< 55,True,0.0
+thyrocare_0_5816.jpg,liver,test_name,5,ASPARTATE AMINOTRANSFERASE (SGOT ),ASPARTATE AMINOTRANSFERASE (SGOT ),True,0.0
+thyrocare_0_5816.jpg,liver,value,5,33.1,33.1,True,0.0
+thyrocare_0_5816.jpg,liver,unit,5,U/l,u/\,False,0.3333333333333333
+thyrocare_0_5816.jpg,liver,reference_range,5,< 35,< 35,True,0.0
+thyrocare_0_5816.jpg,liver,test_name,6,ALANINE TRANSAMINASE (SGPT),ALANINE TRANSAMINASE (SGPT),True,0.0
+thyrocare_0_5816.jpg,liver,value,6,38.9,38.9,True,0.0
+thyrocare_0_5816.jpg,liver,unit,6,U/l,U/l,True,0.0
+thyrocare_0_5816.jpg,liver,reference_range,6,< 45,< 45,True,0.0
+thyrocare_0_5816.jpg,liver,test_name,7,PROTEIN - TOTAL,PROTEIN - TOTAL,True,0.0
+thyrocare_0_5816.jpg,liver,value,7,7.14,7.14,True,0.0
+thyrocare_0_5816.jpg,liver,unit,7,gm/dl,gm/dl,True,0.0
+thyrocare_0_5816.jpg,liver,reference_range,7,5.7-8.2,5.7-8.2,True,0.0
+thyrocare_0_5816.jpg,liver,test_name,8,ALBUMIN - SERUM,ALBUMIN - SERUM,True,0.0
+thyrocare_0_5816.jpg,liver,value,8,3.93,3.93,True,0.0
+thyrocare_0_5816.jpg,liver,unit,8,gm/dl,gm/di,False,0.2
+thyrocare_0_5816.jpg,liver,reference_range,8,3.2-4.8,3.2-4.8,True,0.0
+thyrocare_0_5816.jpg,liver,test_name,9,SERUM ALB/GLOBULIN RATIO,SERUM ALB/GLOBULIN RATIO,True,0.0
+thyrocare_0_5816.jpg,liver,value,9,1.22,1.22,True,0.0
+thyrocare_0_5816.jpg,liver,unit,9,Ratio,Ratio,True,0.0
+thyrocare_0_5816.jpg,liver,reference_range,9,0.9 - 2,0.9-2,True,0.0
+thyrocare_0_5816.jpg,liver,test_name,10,SERUM GLOBULIN,SERUM GLOBULIN,True,0.0
+thyrocare_0_5816.jpg,liver,value,10,3.21,3.21,True,0.0
+thyrocare_0_5816.jpg,liver,unit,10,gm/dL,qm/dL,False,0.2
+thyrocare_0_5816.jpg,liver,reference_range,10,2.5-3.4,2.5-3.4,True,0.0
+thyrocare_0_5858.jpg,liver,test_name,0,ALKALINE PHOSPHATASE,ALKALINE PHOSPHATASE,True,0.0
+thyrocare_0_5858.jpg,liver,value,0,67,67,True,0.0
+thyrocare_0_5858.jpg,liver,unit,0,U/L,U/L,True,0.0
+thyrocare_0_5858.jpg,liver,reference_range,0,45 - 129,45 - 129,True,0.0
+thyrocare_0_5858.jpg,liver,test_name,1,BILIRUBIN - TOTAL,BILIRUBIN - TOTAL,True,0.0
+thyrocare_0_5858.jpg,liver,value,1,0.57,0.57,True,0.0
+thyrocare_0_5858.jpg,liver,unit,1,mg/dl,ma/di,False,0.4
+thyrocare_0_5858.jpg,liver,reference_range,1,0.3-1.2,0.3-1.2,True,0.0
+thyrocare_0_5858.jpg,liver,test_name,2,BILIRUBIN -DIRECT,BILIRUBIN -DIRECT,True,0.0
+thyrocare_0_5858.jpg,liver,value,2,0.18,0.18,True,0.0
+thyrocare_0_5858.jpg,liver,unit,2,mg/dl,mg/dl,True,0.0
+thyrocare_0_5858.jpg,liver,reference_range,2,< 0.3,< 0.%,False,0.25
+thyrocare_0_5858.jpg,liver,test_name,3,BILIRUBIN (INDIRECT),BILIRUBIN (INDIRECT),True,0.0
+thyrocare_0_5858.jpg,liver,value,3,0.39,0.39,True,0.0
+thyrocare_0_5858.jpg,liver,unit,3,mg/dl,maq/dl,False,0.4
+thyrocare_0_5858.jpg,liver,reference_range,3,0-0.9,0-0.9,True,0.0
+thyrocare_0_5858.jpg,liver,test_name,4,GAMMA GLUTAMYL TRANSFERASE (GGT),GAMMA GLUTAMYL TRANSFERASE (GGT),True,0.0
+thyrocare_0_5858.jpg,liver,value,4,34.3,34.3,True,0.0
+thyrocare_0_5858.jpg,liver,unit,4,U/l,U/l,True,0.0
+thyrocare_0_5858.jpg,liver,reference_range,4,< 55,< 55,True,0.0
+thyrocare_0_5858.jpg,liver,test_name,5,ASPARTATE AMINOTRANSFERASE (SGOT ),ASPARTATE AMINOTRANSFERASE (SGOT ),True,0.0
+thyrocare_0_5858.jpg,liver,value,5,33.1,33.1,True,0.0
+thyrocare_0_5858.jpg,liver,unit,5,U/l,U/,False,0.3333333333333333
+thyrocare_0_5858.jpg,liver,reference_range,5,< 35,< 35,True,0.0
+thyrocare_0_5858.jpg,liver,test_name,6,ALANINE TRANSAMINASE (SGPT),ALANINE TRANSAMINASE (SGPT),True,0.0
+thyrocare_0_5858.jpg,liver,value,6,38.9,38.9,True,0.0
+thyrocare_0_5858.jpg,liver,unit,6,U/l,U/\,False,0.3333333333333333
+thyrocare_0_5858.jpg,liver,reference_range,6,< 45,< 45,True,0.0
+thyrocare_0_5858.jpg,liver,test_name,7,PROTEIN - TOTAL,PROTEIN - TOTAL,True,0.0
+thyrocare_0_5858.jpg,liver,value,7,7.14,7.14,True,0.0
+thyrocare_0_5858.jpg,liver,unit,7,gm/dl,grm/dl,False,0.2
+thyrocare_0_5858.jpg,liver,reference_range,7,5.7-8.2,5.7-8.2,True,0.0
+thyrocare_0_5858.jpg,liver,test_name,8,ALBUMIN - SERUM,ALBUMIN - SERUM,True,0.0
+thyrocare_0_5858.jpg,liver,value,8,3.93,3.93,True,0.0
+thyrocare_0_5858.jpg,liver,unit,8,gm/dl,gm/dl,True,0.0
+thyrocare_0_5858.jpg,liver,reference_range,8,3.2-4.8,3.2-4.8,True,0.0
+thyrocare_0_5858.jpg,liver,test_name,9,SERUM ALB/GLOBULIN RATIO,SERUM ALB/GLOBULIN RATIO,True,0.0
+thyrocare_0_5858.jpg,liver,value,9,1.22,1.22,True,0.0
+thyrocare_0_5858.jpg,liver,unit,9,Ratio,Ratio,True,0.0
+thyrocare_0_5858.jpg,liver,reference_range,9,0.9 - 2,0.9-2,True,0.0
+thyrocare_0_5858.jpg,liver,test_name,10,SERUM GLOBULIN,SERUM GLOBULIN,True,0.0
+thyrocare_0_5858.jpg,liver,value,10,3.21,3.21,True,0.0
+thyrocare_0_5858.jpg,liver,unit,10,gm/dL,gm/dL,True,0.0
+thyrocare_0_5858.jpg,liver,reference_range,10,2.5-3.4,2.5-3.4,True,0.0
+thyrocare_0_5879.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_5879.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_5879.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_5879.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_5879.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_5879.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_5879.jpg,thyroid,unit,1,µg/dl,g/dl,False,0.2
+thyrocare_0_5879.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_5879.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_5879.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_5879.jpg,thyroid,unit,2,µIU/ml,piu/mi,False,0.3333333333333333
+thyrocare_0_5879.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_5896.jpg,vitamin,value,0,21,2,False,0.5
+thyrocare_0_5896.jpg,vitamin,unit,0,ng/ml,ng/mi,False,0.2
+thyrocare_0_5896.jpg,vitamin,value,1,551,353,False,0.6666666666666666
+thyrocare_0_5896.jpg,vitamin,unit,1,pg/ml,Pa/mi,False,0.4
+thyrocare_0_6185.jpg,vitamin,test_name,0,25-OH VITAMIN D (TOTAL),25-OH VITAMIN D (TOTAL),True,0.0
+thyrocare_0_6185.jpg,vitamin,value,0,21,24,False,0.5
+thyrocare_0_6185.jpg,vitamin,unit,0,ng/ml,ng/mi,False,0.2
+thyrocare_0_6185.jpg,vitamin,reference_range,0,DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml,DEFICIENCY. <20 ng/ml | INSUFFIGIENCY ; 20-<30 ng/mi | SUFFICIENCY : 30-100 ng/mi | TOXICITY =; > 100 ng/mi,False,0.09411764705882353
+thyrocare_0_6185.jpg,vitamin,test_name,1,VITAMIN B-12,VITAMIN 8-12,False,0.09090909090909091
+thyrocare_0_6185.jpg,vitamin,value,1,551,552,False,0.3333333333333333
+thyrocare_0_6185.jpg,vitamin,unit,1,pg/ml,pg/ml,True,0.0
+thyrocare_0_6185.jpg,vitamin,reference_range,1,Normal : 211 - 911 pg/ml,Nocma) : 211-913 poymi,False,0.3157894736842105
+thyrocare_0_6214.jpg,vitamin,value,0,21,21,True,0.0
+thyrocare_0_6214.jpg,vitamin,unit,0,ng/ml,ng/ml,True,0.0
+thyrocare_0_6214.jpg,vitamin,value,1,551,552,False,0.3333333333333333
+thyrocare_0_6214.jpg,vitamin,unit,1,pg/ml,pa/mi,False,0.4
+thyrocare_0_6222.jpg,vitamin,test_name,0,25-OH VITAMIN D (TOTAL),25-08 VITAMIN D (TOTAL),False,0.1
+thyrocare_0_6222.jpg,vitamin,value,0,21,21,True,0.0
+thyrocare_0_6222.jpg,vitamin,unit,0,ng/ml,ng/mi,False,0.2
+thyrocare_0_6222.jpg,vitamin,reference_range,0,DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml,OBFICIENCY |< 20 nym! | INSUFFIQIENCY . 20-<30 ng/mi | SUFFICIENCY - 30-200 ng/mi | Toxicity - »100 ng/mi,False,0.17647058823529413
+thyrocare_0_6222.jpg,vitamin,test_name,1,VITAMIN B-12,VITAMIN B-12,True,0.0
+thyrocare_0_6222.jpg,vitamin,value,1,551,551,True,0.0
+thyrocare_0_6222.jpg,vitamin,unit,1,pg/ml,pg/mt,False,0.2
+thyrocare_0_6222.jpg,vitamin,reference_range,1,Normal : 211 - 911 pg/ml,Wormal : 281 - 911 pgm,False,0.21052631578947367
+thyrocare_0_657.jpg,liver,test_name,0,ALKALINE PHOSPHATASE,ALKALINE PHOSPHATASE,True,0.0
+thyrocare_0_657.jpg,liver,value,0,67,67,True,0.0
+thyrocare_0_657.jpg,liver,unit,0,U/L,U/L,True,0.0
+thyrocare_0_657.jpg,liver,reference_range,0,45 - 129,45 - 129,True,0.0
+thyrocare_0_657.jpg,liver,test_name,1,BILIRUBIN - TOTAL,BILIRUBIN - TOTAL,True,0.0
+thyrocare_0_657.jpg,liver,value,1,0.57,0.57,True,0.0
+thyrocare_0_657.jpg,liver,unit,1,mg/dl,ma/d!,False,0.4
+thyrocare_0_657.jpg,liver,reference_range,1,0.3-1.2,0.3-1.2,True,0.0
+thyrocare_0_657.jpg,liver,test_name,2,BILIRUBIN -DIRECT,BILIRUBIN -DIRECT,True,0.0
+thyrocare_0_657.jpg,liver,value,2,0.18,0.18,True,0.0
+thyrocare_0_657.jpg,liver,unit,2,mg/dl,ma/di,False,0.4
+thyrocare_0_657.jpg,liver,reference_range,2,< 0.3,< 0.4,False,0.25
+thyrocare_0_657.jpg,liver,test_name,3,BILIRUBIN (INDIRECT),BILIRUBIN (INDIRECT),True,0.0
+thyrocare_0_657.jpg,liver,value,3,0.39,0.39,True,0.0
+thyrocare_0_657.jpg,liver,unit,3,mg/dl,maq/dl,False,0.4
+thyrocare_0_657.jpg,liver,reference_range,3,0-0.9,0-0.9,True,0.0
+thyrocare_0_657.jpg,liver,test_name,4,GAMMA GLUTAMYL TRANSFERASE (GGT),GAMMA GLUTAMYL TRANSFERASE (GGT),True,0.0
+thyrocare_0_657.jpg,liver,value,4,34.3,34.3,True,0.0
+thyrocare_0_657.jpg,liver,unit,4,U/l,U/I,False,0.3333333333333333
+thyrocare_0_657.jpg,liver,reference_range,4,< 55,< 55,True,0.0
+thyrocare_0_657.jpg,liver,test_name,5,ASPARTATE AMINOTRANSFERASE (SGOT ),ASPARTATE AMINOTRANSFERASE (SGOT ),True,0.0
+thyrocare_0_657.jpg,liver,value,5,33.1,33.1,True,0.0
+thyrocare_0_657.jpg,liver,unit,5,U/l,u/I,False,0.3333333333333333
+thyrocare_0_657.jpg,liver,reference_range,5,< 35,< 35,True,0.0
+thyrocare_0_657.jpg,liver,test_name,6,ALANINE TRANSAMINASE (SGPT),ALANINE TRANSAMINASE (SGPT),True,0.0
+thyrocare_0_657.jpg,liver,value,6,38.9,38.9,True,0.0
+thyrocare_0_657.jpg,liver,unit,6,U/l,U/l,True,0.0
+thyrocare_0_657.jpg,liver,reference_range,6,< 45,< 45,True,0.0
+thyrocare_0_657.jpg,liver,test_name,7,PROTEIN - TOTAL,PROTEIN - TOTAL,True,0.0
+thyrocare_0_657.jpg,liver,value,7,7.14,7.14,True,0.0
+thyrocare_0_657.jpg,liver,unit,7,gm/dl,gm/dl,True,0.0
+thyrocare_0_657.jpg,liver,reference_range,7,5.7-8.2,5.7-8.2,True,0.0
+thyrocare_0_657.jpg,liver,test_name,8,ALBUMIN - SERUM,ALBUMIN - SERUM,True,0.0
+thyrocare_0_657.jpg,liver,value,8,3.93,3.93,True,0.0
+thyrocare_0_657.jpg,liver,unit,8,gm/dl,gm/di,False,0.2
+thyrocare_0_657.jpg,liver,reference_range,8,3.2-4.8,3.2-4.8,True,0.0
+thyrocare_0_657.jpg,liver,test_name,9,SERUM ALB/GLOBULIN RATIO,SERUM ALB/GLOBULIN RATIO,True,0.0
+thyrocare_0_657.jpg,liver,value,9,1.22,1.22,True,0.0
+thyrocare_0_657.jpg,liver,unit,9,Ratio,Ratio,True,0.0
+thyrocare_0_657.jpg,liver,reference_range,9,0.9 - 2,0.9-2,True,0.0
+thyrocare_0_657.jpg,liver,test_name,10,SERUM GLOBULIN,SERUM GLOBULIN,True,0.0
+thyrocare_0_657.jpg,liver,value,10,3.21,3.21,True,0.0
+thyrocare_0_657.jpg,liver,unit,10,gm/dL,gm/db,False,0.2
+thyrocare_0_657.jpg,liver,reference_range,10,2.5-3.4,2.5-3.4,True,0.0
+thyrocare_0_6698.jpg,vitamin,value,0,21,23,False,0.5
+thyrocare_0_6698.jpg,vitamin,unit,0,ng/ml,ng/ml,True,0.0
+thyrocare_0_6698.jpg,vitamin,value,1,551,351,False,0.3333333333333333
+thyrocare_0_6698.jpg,vitamin,unit,1,pg/ml,po/m!,False,0.4
+thyrocare_0_6716.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_6716.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_6716.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_6716.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_6716.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_6716.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_6716.jpg,thyroid,unit,1,µg/dl,pa/di,False,0.6
+thyrocare_0_6716.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_6716.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_6716.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_6716.jpg,thyroid,unit,2,µIU/ml,piu/m,False,0.3333333333333333
+thyrocare_0_6716.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5§.5,False,0.14285714285714285
+thyrocare_0_6723.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_6723.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_6723.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_6723.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_6723.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_6723.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_6723.jpg,thyroid,unit,1,µg/dl,va/di,False,0.6
+thyrocare_0_6723.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_6723.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_6723.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_6723.jpg,thyroid,unit,2,µIU/ml,plu/ml,False,0.3333333333333333
+thyrocare_0_6723.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_6743.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_6743.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_6743.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_6743.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_6743.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_6743.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_6743.jpg,thyroid,unit,1,µg/dl,ya/dl,False,0.4
+thyrocare_0_6743.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_6743.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_6743.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_6743.jpg,thyroid,unit,2,µIU/ml,plu/m,False,0.5
+thyrocare_0_6743.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_6884.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_6884.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_6884.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_6884.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_6884.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_6884.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_6884.jpg,thyroid,unit,1,µg/dl,yq/di,False,0.6
+thyrocare_0_6884.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_6884.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_6884.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_6884.jpg,thyroid,unit,2,µIU/ml,wlu/mi,False,0.5
+thyrocare_0_6884.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_7075.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_7075.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_7075.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_7075.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_7075.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (14),False,0.05555555555555555
+thyrocare_0_7075.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_7075.jpg,thyroid,unit,1,µg/dl,ug/dl,False,0.2
+thyrocare_0_7075.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_7075.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_7075.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_7075.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_7075.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_7082.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_7082.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_7082.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_7082.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_7082.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_7082.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_7082.jpg,thyroid,unit,1,µg/dl,va/dl,False,0.4
+thyrocare_0_7082.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_7082.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_7082.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_7082.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_7082.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_7083.jpg,vitamin,test_name,0,25-OH VITAMIN D (TOTAL),25-OH VITAMIN D (TOTAL),True,0.0
+thyrocare_0_7083.jpg,vitamin,value,0,21,21,True,0.0
+thyrocare_0_7083.jpg,vitamin,unit,0,ng/ml,ng/mi,False,0.2
+thyrocare_0_7083.jpg,vitamin,reference_range,0,DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml,DEFICIENCY: <20 ng/mi | SOSUFFIGIBNCY : 20-<30 ng/mi | SUBPFICIENCY «© 30-200 ng/mi | TOXICITY 2 > 100 ngsmt,False,0.17647058823529413
+thyrocare_0_7083.jpg,vitamin,test_name,1,VITAMIN B-12,VITAMIN 8-12,False,0.09090909090909091
+thyrocare_0_7083.jpg,vitamin,value,1,551,52,False,0.6666666666666666
+thyrocare_0_7083.jpg,vitamin,unit,1,pg/ml,pa/md,False,0.4
+thyrocare_0_7083.jpg,vitamin,reference_range,1,Normal : 211 - 911 pg/ml,Normal: 211-512 poim,False,0.2631578947368421
+thyrocare_0_7109.jpg,liver,test_name,0,ALKALINE PHOSPHATASE,ALKALINE PHOSPHATASE,True,0.0
+thyrocare_0_7109.jpg,liver,value,0,67,67,True,0.0
+thyrocare_0_7109.jpg,liver,unit,0,U/L,U/L,True,0.0
+thyrocare_0_7109.jpg,liver,reference_range,0,45 - 129,45-129,True,0.0
+thyrocare_0_7109.jpg,liver,test_name,1,BILIRUBIN - TOTAL,BILIRUBIN - TOTAL,True,0.0
+thyrocare_0_7109.jpg,liver,value,1,0.57,0.57,True,0.0
+thyrocare_0_7109.jpg,liver,unit,1,mg/dl,mq/dl,False,0.2
+thyrocare_0_7109.jpg,liver,reference_range,1,0.3-1.2,0.3-1.2,True,0.0
+thyrocare_0_7109.jpg,liver,test_name,2,BILIRUBIN -DIRECT,BILIRUBIN -DIRECT,True,0.0
+thyrocare_0_7109.jpg,liver,value,2,0.18,0.18,True,0.0
+thyrocare_0_7109.jpg,liver,unit,2,mg/dl,mg/dl,True,0.0
+thyrocare_0_7109.jpg,liver,reference_range,2,< 0.3,<O0.%,False,0.5
+thyrocare_0_7109.jpg,liver,test_name,3,BILIRUBIN (INDIRECT),BILIRUBIN (INDIRECT),True,0.0
+thyrocare_0_7109.jpg,liver,value,3,0.39,0.39,True,0.0
+thyrocare_0_7109.jpg,liver,unit,3,mg/dl,mg/dl,True,0.0
+thyrocare_0_7109.jpg,liver,reference_range,3,0-0.9,0-0.9,True,0.0
+thyrocare_0_7109.jpg,liver,test_name,4,GAMMA GLUTAMYL TRANSFERASE (GGT),GAMMA GLUTAMYL TRANSFERASE (GGT),True,0.0
+thyrocare_0_7109.jpg,liver,value,4,34.3,34.3,True,0.0
+thyrocare_0_7109.jpg,liver,unit,4,U/l,u/I,False,0.3333333333333333
+thyrocare_0_7109.jpg,liver,reference_range,4,< 55,< 55,True,0.0
+thyrocare_0_7109.jpg,liver,test_name,5,ASPARTATE AMINOTRANSFERASE (SGOT ),ASPARTATE AMINOTRANSFERASE (SGOT ),True,0.0
+thyrocare_0_7109.jpg,liver,value,5,33.1,33.1,True,0.0
+thyrocare_0_7109.jpg,liver,unit,5,U/l,U/I,False,0.3333333333333333
+thyrocare_0_7109.jpg,liver,reference_range,5,< 35,< 35,True,0.0
+thyrocare_0_7109.jpg,liver,test_name,6,ALANINE TRANSAMINASE (SGPT),ALANINE TRANSAMINASE (SGPT),True,0.0
+thyrocare_0_7109.jpg,liver,value,6,38.9,38.9,True,0.0
+thyrocare_0_7109.jpg,liver,unit,6,U/l,U/I,False,0.3333333333333333
+thyrocare_0_7109.jpg,liver,reference_range,6,< 45,< 45,True,0.0
+thyrocare_0_7109.jpg,liver,test_name,7,PROTEIN - TOTAL,PROTEIN - TOTAL.,False,0.07692307692307693
+thyrocare_0_7109.jpg,liver,value,7,7.14,7.14,True,0.0
+thyrocare_0_7109.jpg,liver,unit,7,gm/dl,gm/dl,True,0.0
+thyrocare_0_7109.jpg,liver,reference_range,7,5.7-8.2,§.7-8.2,False,0.14285714285714285
+thyrocare_0_7109.jpg,liver,test_name,8,ALBUMIN - SERUM,ALBUMIN - SERUM,True,0.0
+thyrocare_0_7109.jpg,liver,value,8,3.93,3.93,True,0.0
+thyrocare_0_7109.jpg,liver,unit,8,gm/dl,gm/di,False,0.2
+thyrocare_0_7109.jpg,liver,reference_range,8,3.2-4.8,3.2-4.8,True,0.0
+thyrocare_0_7109.jpg,liver,test_name,9,SERUM ALB/GLOBULIN RATIO,SERUM ALB/GLOBULIN RATIO,True,0.0
+thyrocare_0_7109.jpg,liver,value,9,1.22,1.22,True,0.0
+thyrocare_0_7109.jpg,liver,unit,9,Ratio,Ratio,True,0.0
+thyrocare_0_7109.jpg,liver,reference_range,9,0.9 - 2,0.9-2,True,0.0
+thyrocare_0_7109.jpg,liver,test_name,10,SERUM GLOBULIN,SERUM GLOBULIN»,False,0.07692307692307693
+thyrocare_0_7109.jpg,liver,value,10,3.21,3.21,True,0.0
+thyrocare_0_7109.jpg,liver,unit,10,gm/dL,gm/dt,False,0.2
+thyrocare_0_7109.jpg,liver,reference_range,10,2.5-3.4,2.5-3.4,True,0.0
+thyrocare_0_7219.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_7219.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_7219.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_7219.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_7219.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_7219.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_7219.jpg,thyroid,unit,1,µg/dl,pa/dt,False,0.6
+thyrocare_0_7219.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_7219.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_7219.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_7219.jpg,thyroid,unit,2,µIU/ml,wilu/mi,False,0.5
+thyrocare_0_7219.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_757.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_757.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_757.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_757.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_757.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_757.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_757.jpg,thyroid,unit,1,µg/dl,va/dl,False,0.4
+thyrocare_0_757.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_757.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_757.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_757.jpg,thyroid,unit,2,µIU/ml,plU/mi,False,0.5
+thyrocare_0_757.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_7571.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_7571.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_7571.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_7571.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_7571.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_7571.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_7571.jpg,thyroid,unit,1,µg/dl,ug/dl,False,0.2
+thyrocare_0_7571.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_7571.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_7571.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_7571.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_7571.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_7601.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_7601.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_7601.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_7601.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_7601.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_7601.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_7601.jpg,thyroid,unit,1,µg/dl,yaq/di,False,0.8
+thyrocare_0_7601.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_7601.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_7601.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_7601.jpg,thyroid,unit,2,µIU/ml,plu/n,False,0.6666666666666666
+thyrocare_0_7601.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_7635.jpg,liver,test_name,0,ALKALINE PHOSPHATASE,ALKALINE PHOSPHATASE,True,0.0
+thyrocare_0_7635.jpg,liver,value,0,67,67,True,0.0
+thyrocare_0_7635.jpg,liver,unit,0,U/L,U/L,True,0.0
+thyrocare_0_7635.jpg,liver,reference_range,0,45 - 129,45 - 129,True,0.0
+thyrocare_0_7635.jpg,liver,test_name,1,BILIRUBIN - TOTAL,BILIRUBIN - TOTAL,True,0.0
+thyrocare_0_7635.jpg,liver,value,1,0.57,0.57,True,0.0
+thyrocare_0_7635.jpg,liver,unit,1,mg/dl,mq/dl,False,0.2
+thyrocare_0_7635.jpg,liver,reference_range,1,0.3-1.2,0.3-1.2,True,0.0
+thyrocare_0_7635.jpg,liver,test_name,2,BILIRUBIN -DIRECT,BILIRUBIN -DIRECT,True,0.0
+thyrocare_0_7635.jpg,liver,value,2,0.18,0.18,True,0.0
+thyrocare_0_7635.jpg,liver,unit,2,mg/dl,ma/di,False,0.4
+thyrocare_0_7635.jpg,liver,reference_range,2,< 0.3,<0.%,False,0.25
+thyrocare_0_7635.jpg,liver,test_name,3,BILIRUBIN (INDIRECT),BILIRUBIN (INDIRECT),True,0.0
+thyrocare_0_7635.jpg,liver,value,3,0.39,0.39,True,0.0
+thyrocare_0_7635.jpg,liver,unit,3,mg/dl,ma/dl,False,0.2
+thyrocare_0_7635.jpg,liver,reference_range,3,0-0.9,0-0.9,True,0.0
+thyrocare_0_7635.jpg,liver,test_name,4,GAMMA GLUTAMYL TRANSFERASE (GGT),GAMMA GLUTAMYL TRANSFERASE (GGT),True,0.0
+thyrocare_0_7635.jpg,liver,value,4,34.3,34.3,True,0.0
+thyrocare_0_7635.jpg,liver,unit,4,U/l,U/!,False,0.3333333333333333
+thyrocare_0_7635.jpg,liver,reference_range,4,< 55,< 55,True,0.0
+thyrocare_0_7635.jpg,liver,test_name,5,ASPARTATE AMINOTRANSFERASE (SGOT ),ASPARTATE AMINOTRANSFERASE (SGOT ),True,0.0
+thyrocare_0_7635.jpg,liver,value,5,33.1,33.1,True,0.0
+thyrocare_0_7635.jpg,liver,unit,5,U/l,U/I,False,0.3333333333333333
+thyrocare_0_7635.jpg,liver,reference_range,5,< 35,< 35,True,0.0
+thyrocare_0_7635.jpg,liver,test_name,6,ALANINE TRANSAMINASE (SGPT),ALANINE TRANSAMINASE (SGPT),True,0.0
+thyrocare_0_7635.jpg,liver,value,6,38.9,38.9,True,0.0
+thyrocare_0_7635.jpg,liver,unit,6,U/l,u/I,False,0.3333333333333333
+thyrocare_0_7635.jpg,liver,reference_range,6,< 45,< 45,True,0.0
+thyrocare_0_7635.jpg,liver,test_name,7,PROTEIN - TOTAL,PROTEIN - TOTAL,True,0.0
+thyrocare_0_7635.jpg,liver,value,7,7.14,7.14,True,0.0
+thyrocare_0_7635.jpg,liver,unit,7,gm/dl,gm/dl,True,0.0
+thyrocare_0_7635.jpg,liver,reference_range,7,5.7-8.2,5.7-8.2,True,0.0
+thyrocare_0_7635.jpg,liver,test_name,8,ALBUMIN - SERUM,ALBUMIN - SERUM,True,0.0
+thyrocare_0_7635.jpg,liver,value,8,3.93,3.93,True,0.0
+thyrocare_0_7635.jpg,liver,unit,8,gm/dl,gm/di,False,0.2
+thyrocare_0_7635.jpg,liver,reference_range,8,3.2-4.8,3.2-4.8,True,0.0
+thyrocare_0_7635.jpg,liver,test_name,9,SERUM ALB/GLOBULIN RATIO,SERUM ALB/GLOBULIN RATIO,True,0.0
+thyrocare_0_7635.jpg,liver,value,9,1.22,1.22,True,0.0
+thyrocare_0_7635.jpg,liver,unit,9,Ratio,Ratio,True,0.0
+thyrocare_0_7635.jpg,liver,reference_range,9,0.9 - 2,0.9-2,True,0.0
+thyrocare_0_7635.jpg,liver,test_name,10,SERUM GLOBULIN,SERUM GLOBULIN,True,0.0
+thyrocare_0_7635.jpg,liver,value,10,3.21,3.21,True,0.0
+thyrocare_0_7635.jpg,liver,unit,10,gm/dL,qm/dL,False,0.2
+thyrocare_0_7635.jpg,liver,reference_range,10,2.5-3.4,(2.5-3.4,False,0.14285714285714285
+thyrocare_0_7758.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_7758.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_7758.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_7758.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_7758.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_7758.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_7758.jpg,thyroid,unit,1,µg/dl,pa/di,False,0.6
+thyrocare_0_7758.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_7758.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_7758.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_7758.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_7758.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_7791.jpg,liver,value,0,67,67,True,0.0
+thyrocare_0_7791.jpg,liver,unit,0,U/L,U/L,True,0.0
+thyrocare_0_7791.jpg,liver,reference_range,0,45 - 129,45 - 129,True,0.0
+thyrocare_0_7791.jpg,liver,value,1,0.57,0.57,True,0.0
+thyrocare_0_7791.jpg,liver,unit,1,mg/dl,maq/dl,False,0.4
+thyrocare_0_7791.jpg,liver,reference_range,1,0.3-1.2,0.3-1.2,True,0.0
+thyrocare_0_7791.jpg,liver,value,2,0.18,0.18,True,0.0
+thyrocare_0_7791.jpg,liver,unit,2,mg/dl,mag/di,False,0.4
+thyrocare_0_7791.jpg,liver,reference_range,2,< 0.3,< O.%,False,0.5
+thyrocare_0_7791.jpg,liver,value,3,0.39,0.39,True,0.0
+thyrocare_0_7791.jpg,liver,unit,3,mg/dl,ma/di,False,0.4
+thyrocare_0_7791.jpg,liver,reference_range,3,0-0.9,0-0.9,True,0.0
+thyrocare_0_7791.jpg,liver,value,4,34.3,34.3,True,0.0
+thyrocare_0_7791.jpg,liver,unit,4,U/l,u/s!,False,0.6666666666666666
+thyrocare_0_7791.jpg,liver,reference_range,4,< 55,< 55,True,0.0
+thyrocare_0_7791.jpg,liver,value,5,33.1,33.1,True,0.0
+thyrocare_0_7791.jpg,liver,unit,5,U/l,u/I,False,0.3333333333333333
+thyrocare_0_7791.jpg,liver,reference_range,5,< 35,< 35,True,0.0
+thyrocare_0_7791.jpg,liver,value,6,38.9,38.9,True,0.0
+thyrocare_0_7791.jpg,liver,unit,6,U/l,U/l,True,0.0
+thyrocare_0_7791.jpg,liver,reference_range,6,< 45,< 45,True,0.0
+thyrocare_0_7791.jpg,liver,value,7,7.14,7.14,True,0.0
+thyrocare_0_7791.jpg,liver,unit,7,gm/dl,gm/di,False,0.2
+thyrocare_0_7791.jpg,liver,reference_range,7,5.7-8.2,5.7-8.2,True,0.0
+thyrocare_0_7791.jpg,liver,value,8,3.93,3.93,True,0.0
+thyrocare_0_7791.jpg,liver,unit,8,gm/dl,gm/dl,True,0.0
+thyrocare_0_7791.jpg,liver,reference_range,8,3.2-4.8,3.2-4.8,True,0.0
+thyrocare_0_7791.jpg,liver,value,9,1.22,1.22,True,0.0
+thyrocare_0_7791.jpg,liver,unit,9,Ratio,Ratio,True,0.0
+thyrocare_0_7791.jpg,liver,reference_range,9,0.9 - 2,0.9-2,True,0.0
+thyrocare_0_7791.jpg,liver,value,10,3.21,3.21,True,0.0
+thyrocare_0_7791.jpg,liver,unit,10,gm/dL,am/dL,False,0.2
+thyrocare_0_7791.jpg,liver,reference_range,10,2.5-3.4,2.5-3.4,True,0.0
+thyrocare_0_7805.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_7805.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_7805.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_7805.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_7805.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_7805.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_7805.jpg,thyroid,unit,1,µg/dl,ug/dl,False,0.2
+thyrocare_0_7805.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_7805.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_7805.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_7805.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_7805.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_8214.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_8214.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_8214.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_8214.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_8214.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_8214.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_8214.jpg,thyroid,unit,1,µg/dl,g/d,False,0.4
+thyrocare_0_8214.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_8214.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_8214.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_8214.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_8214.jpg,thyroid,reference_range,2,0.3-5.5,0.3-S.5,False,0.14285714285714285
+thyrocare_0_8231.jpg,vitamin,test_name,0,25-OH VITAMIN D (TOTAL),25-OH VITAMIN D (TOTAL),True,0.0
+thyrocare_0_8231.jpg,vitamin,value,0,21,21,True,0.0
+thyrocare_0_8231.jpg,vitamin,unit,0,ng/ml,ng/mi,False,0.2
+thyrocare_0_8231.jpg,vitamin,reference_range,0,DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml,DRFICIENCY : <20 ng/mi | INSUPFIGIENCY . 20-<30 ng/m! | SUFFICIENCY - 30-100 ng/mi | TOXICITY =. > 100 na/mi,False,0.1411764705882353
+thyrocare_0_8231.jpg,vitamin,test_name,1,VITAMIN B-12,VITAMIN B-12,True,0.0
+thyrocare_0_8231.jpg,vitamin,value,1,551,551,True,0.0
+thyrocare_0_8231.jpg,vitamin,unit,1,pg/ml,pa/m!,False,0.4
+thyrocare_0_8231.jpg,vitamin,reference_range,1,Normal : 211 - 911 pg/ml,Nocmal : 221 - 911 pg/mi,False,0.15789473684210525
+thyrocare_0_8251.jpg,liver,test_name,0,ALKALINE PHOSPHATASE,ALKALINE PHOSPHATASE,True,0.0
+thyrocare_0_8251.jpg,liver,value,0,67,67,True,0.0
+thyrocare_0_8251.jpg,liver,unit,0,U/L,U/L,True,0.0
+thyrocare_0_8251.jpg,liver,reference_range,0,45 - 129,45 - 129,True,0.0
+thyrocare_0_8251.jpg,liver,test_name,1,BILIRUBIN - TOTAL,BILIRUBIN - TOTAL,True,0.0
+thyrocare_0_8251.jpg,liver,value,1,0.57,0.57,True,0.0
+thyrocare_0_8251.jpg,liver,unit,1,mg/dl,maq/dl,False,0.4
+thyrocare_0_8251.jpg,liver,reference_range,1,0.3-1.2,0.3-1.2,True,0.0
+thyrocare_0_8251.jpg,liver,test_name,2,BILIRUBIN -DIRECT,BILIRUBIN -DIRECT,True,0.0
+thyrocare_0_8251.jpg,liver,value,2,0.18,0.18,True,0.0
+thyrocare_0_8251.jpg,liver,unit,2,mg/dl,mg/d!,False,0.2
+thyrocare_0_8251.jpg,liver,reference_range,2,< 0.3,<0.%,False,0.25
+thyrocare_0_8251.jpg,liver,test_name,3,BILIRUBIN (INDIRECT),BILIRUBIN (INDIRECT),True,0.0
+thyrocare_0_8251.jpg,liver,value,3,0.39,0.39,True,0.0
+thyrocare_0_8251.jpg,liver,unit,3,mg/dl,maq/di,False,0.6
+thyrocare_0_8251.jpg,liver,reference_range,3,0-0.9,0-0.9,True,0.0
+thyrocare_0_8251.jpg,liver,test_name,4,GAMMA GLUTAMYL TRANSFERASE (GGT),GAMMA GLUTAMYL TRANSFERASE (GGT),True,0.0
+thyrocare_0_8251.jpg,liver,value,4,34.3,34.3,True,0.0
+thyrocare_0_8251.jpg,liver,unit,4,U/l,u/I,False,0.3333333333333333
+thyrocare_0_8251.jpg,liver,reference_range,4,< 55,< 55,True,0.0
+thyrocare_0_8251.jpg,liver,test_name,5,ASPARTATE AMINOTRANSFERASE (SGOT ),ASPARTATE AMINOTRANSFERASE (SGOT ),True,0.0
+thyrocare_0_8251.jpg,liver,value,5,33.1,33.1,True,0.0
+thyrocare_0_8251.jpg,liver,unit,5,U/l,U/l,True,0.0
+thyrocare_0_8251.jpg,liver,reference_range,5,< 35,< 35,True,0.0
+thyrocare_0_8251.jpg,liver,test_name,6,ALANINE TRANSAMINASE (SGPT),ALANINE TRANSAMINASE (SGPT),True,0.0
+thyrocare_0_8251.jpg,liver,value,6,38.9,38.9,True,0.0
+thyrocare_0_8251.jpg,liver,unit,6,U/l,U/l,True,0.0
+thyrocare_0_8251.jpg,liver,reference_range,6,< 45,< 45,True,0.0
+thyrocare_0_8251.jpg,liver,test_name,7,PROTEIN - TOTAL,PROTEIN - TOTAI,False,0.07692307692307693
+thyrocare_0_8251.jpg,liver,value,7,7.14,7.14,True,0.0
+thyrocare_0_8251.jpg,liver,unit,7,gm/dl,gm/dl,True,0.0
+thyrocare_0_8251.jpg,liver,reference_range,7,5.7-8.2,5.7-8.2,True,0.0
+thyrocare_0_8251.jpg,liver,test_name,8,ALBUMIN - SERUM,ALBUMIN - SERUM,True,0.0
+thyrocare_0_8251.jpg,liver,value,8,3.93,3.93,True,0.0
+thyrocare_0_8251.jpg,liver,unit,8,gm/dl,gm/di,False,0.2
+thyrocare_0_8251.jpg,liver,reference_range,8,3.2-4.8,3.2-4.8,True,0.0
+thyrocare_0_8251.jpg,liver,test_name,9,SERUM ALB/GLOBULIN RATIO,SERUM ALB/GLOBULIN RATIO,True,0.0
+thyrocare_0_8251.jpg,liver,value,9,1.22,1.22,True,0.0
+thyrocare_0_8251.jpg,liver,unit,9,Ratio,Ratio,True,0.0
+thyrocare_0_8251.jpg,liver,reference_range,9,0.9 - 2,0.9-2,True,0.0
+thyrocare_0_8251.jpg,liver,test_name,10,SERUM GLOBULIN,SERUM GLOBULIN,True,0.0
+thyrocare_0_8251.jpg,liver,value,10,3.21,3.21,True,0.0
+thyrocare_0_8251.jpg,liver,unit,10,gm/dL,qrm/dL,False,0.4
+thyrocare_0_8251.jpg,liver,reference_range,10,2.5-3.4,2.5-3.4,True,0.0
+thyrocare_0_8265.jpg,vitamin,test_name,0,25-OH VITAMIN D (TOTAL),25-OH VITAMIN D (TOTAL),True,0.0
+thyrocare_0_8265.jpg,vitamin,value,0,21,21,True,0.0
+thyrocare_0_8265.jpg,vitamin,unit,0,ng/ml,ng/ml,True,0.0
+thyrocare_0_8265.jpg,vitamin,reference_range,0,DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml,OEFICIENCY 1<20 ng/m | INSUFFICIENCY : 20-<30 ng/mi | SUFFICIENCY : 30-100 ng/mi | TOMCITY -. >100 ag/mi,False,0.12941176470588237
+thyrocare_0_8265.jpg,vitamin,test_name,1,VITAMIN B-12,VITAMIN 8-12,False,0.09090909090909091
+thyrocare_0_8265.jpg,vitamin,value,1,551,351,False,0.3333333333333333
+thyrocare_0_8265.jpg,vitamin,unit,1,pg/ml,pa/mt,False,0.4
+thyrocare_0_8265.jpg,vitamin,reference_range,1,Normal : 211 - 911 pg/ml,Normnal : 211 - 941 pg/ims,False,0.21052631578947367
+thyrocare_0_8302.jpg,liver,test_name,0,ALKALINE PHOSPHATASE,ALKALINE PHOSPHATASE,True,0.0
+thyrocare_0_8302.jpg,liver,value,0,67,67,True,0.0
+thyrocare_0_8302.jpg,liver,unit,0,U/L,U/L,True,0.0
+thyrocare_0_8302.jpg,liver,reference_range,0,45 - 129,45 - 129,True,0.0
+thyrocare_0_8302.jpg,liver,test_name,1,BILIRUBIN - TOTAL,BILIRUBIN - TOTAL,True,0.0
+thyrocare_0_8302.jpg,liver,value,1,0.57,0.57,True,0.0
+thyrocare_0_8302.jpg,liver,unit,1,mg/dl,maq/di,False,0.6
+thyrocare_0_8302.jpg,liver,reference_range,1,0.3-1.2,0.3-1.2,True,0.0
+thyrocare_0_8302.jpg,liver,test_name,2,BILIRUBIN -DIRECT,BILIRUBIN -DIRECT,True,0.0
+thyrocare_0_8302.jpg,liver,value,2,0.18,0.18,True,0.0
+thyrocare_0_8302.jpg,liver,unit,2,mg/dl,mg/dl,True,0.0
+thyrocare_0_8302.jpg,liver,reference_range,2,< 0.3,<0.,False,0.25
+thyrocare_0_8302.jpg,liver,test_name,3,BILIRUBIN (INDIRECT),BILIRUBIN (INDIRECT),True,0.0
+thyrocare_0_8302.jpg,liver,value,3,0.39,0.39,True,0.0
+thyrocare_0_8302.jpg,liver,unit,3,mg/dl,ma/dl,False,0.2
+thyrocare_0_8302.jpg,liver,reference_range,3,0-0.9,0-0.9,True,0.0
+thyrocare_0_8302.jpg,liver,test_name,4,GAMMA GLUTAMYL TRANSFERASE (GGT),GAMMA GLUTAMYL TRANSFERASE (GGT),True,0.0
+thyrocare_0_8302.jpg,liver,value,4,34.3,34.3,True,0.0
+thyrocare_0_8302.jpg,liver,unit,4,U/l,u/,False,0.3333333333333333
+thyrocare_0_8302.jpg,liver,reference_range,4,< 55,<55,True,0.0
+thyrocare_0_8302.jpg,liver,test_name,5,ASPARTATE AMINOTRANSFERASE (SGOT ),ASPARTATE AMINOTRANSFERASE (SGOT ),True,0.0
+thyrocare_0_8302.jpg,liver,value,5,33.1,33.1,True,0.0
+thyrocare_0_8302.jpg,liver,unit,5,U/l,u/I,False,0.3333333333333333
+thyrocare_0_8302.jpg,liver,reference_range,5,< 35,< 35,True,0.0
+thyrocare_0_8302.jpg,liver,test_name,6,ALANINE TRANSAMINASE (SGPT),ALANINE TRANSAMINASE (SGPT),True,0.0
+thyrocare_0_8302.jpg,liver,value,6,38.9,38.9,True,0.0
+thyrocare_0_8302.jpg,liver,unit,6,U/l,u/I,False,0.3333333333333333
+thyrocare_0_8302.jpg,liver,reference_range,6,< 45,< 45,True,0.0
+thyrocare_0_8302.jpg,liver,test_name,7,PROTEIN - TOTAL,PROTEIN - TOTAL,True,0.0
+thyrocare_0_8302.jpg,liver,value,7,7.14,7.14,True,0.0
+thyrocare_0_8302.jpg,liver,unit,7,gm/dl,gm/dl,True,0.0
+thyrocare_0_8302.jpg,liver,reference_range,7,5.7-8.2,5.7-8.2,True,0.0
+thyrocare_0_8302.jpg,liver,test_name,8,ALBUMIN - SERUM,ALBUMIN - SERUM,True,0.0
+thyrocare_0_8302.jpg,liver,value,8,3.93,3.93,True,0.0
+thyrocare_0_8302.jpg,liver,unit,8,gm/dl,gm/dl,True,0.0
+thyrocare_0_8302.jpg,liver,reference_range,8,3.2-4.8,3.2-4.8,True,0.0
+thyrocare_0_8302.jpg,liver,test_name,9,SERUM ALB/GLOBULIN RATIO,SERUM ALB/GLOBULIN RATIO,True,0.0
+thyrocare_0_8302.jpg,liver,value,9,1.22,1.22,True,0.0
+thyrocare_0_8302.jpg,liver,unit,9,Ratio,Ratio,True,0.0
+thyrocare_0_8302.jpg,liver,reference_range,9,0.9 - 2,0.9-2,True,0.0
+thyrocare_0_8302.jpg,liver,test_name,10,SERUM GLOBULIN,SERUM GLOBULIN,True,0.0
+thyrocare_0_8302.jpg,liver,value,10,3.21,3.21,True,0.0
+thyrocare_0_8302.jpg,liver,unit,10,gm/dL,qm/dL,False,0.2
+thyrocare_0_8302.jpg,liver,reference_range,10,2.5-3.4,2.5-3.4,True,0.0
+thyrocare_0_8310.jpg,vitamin,test_name,0,25-OH VITAMIN D (TOTAL),25-O84 VITAMIN D (TOTAL),False,0.1
+thyrocare_0_8310.jpg,vitamin,value,0,21,23,False,0.5
+thyrocare_0_8310.jpg,vitamin,unit,0,ng/ml,ng/mi,False,0.2
+thyrocare_0_8310.jpg,vitamin,reference_range,0,DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml,ORRCIBICY «20 ng | ONSUPFIGIENCY « 20-<W0 ng/m | SUBFICIENCY = 30-100 ng/ml | TOMcITY =. » 100 nay,False,0.32941176470588235
+thyrocare_0_8310.jpg,vitamin,test_name,1,VITAMIN B-12,VITAMIN 6-12,False,0.09090909090909091
+thyrocare_0_8310.jpg,vitamin,value,1,551,552,False,0.3333333333333333
+thyrocare_0_8310.jpg,vitamin,unit,1,pg/ml,Le,False,1.0
+thyrocare_0_8310.jpg,vitamin,reference_range,1,Normal : 211 - 911 pg/ml,Normal : 231 - $48 og/mt,False,0.3157894736842105
+thyrocare_0_838.jpg,vitamin,test_name,0,25-OH VITAMIN D (TOTAL),25-OH VITAMIN OD (TOTAL),False,0.05
+thyrocare_0_838.jpg,vitamin,value,0,21,21,True,0.0
+thyrocare_0_838.jpg,vitamin,unit,0,ng/ml,ng/ml,True,0.0
+thyrocare_0_838.jpg,vitamin,reference_range,0,DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml,DEFICIENCY: <20 ng/m! | INSUFFICIENCY : 20-<30 ng/mi | SUFFICIENCY ~ 30-100 ng/mi | TOXICITY. >100 ng/mi,False,0.07058823529411765
+thyrocare_0_838.jpg,vitamin,test_name,1,VITAMIN B-12,VITAMIN B-12,True,0.0
+thyrocare_0_838.jpg,vitamin,value,1,551,352,False,0.6666666666666666
+thyrocare_0_838.jpg,vitamin,unit,1,pg/ml,pasmil,False,0.6
+thyrocare_0_838.jpg,vitamin,reference_range,1,Normal : 211 - 911 pg/ml,Norma): 211-911 pg/ml,False,0.05263157894736842
+thyrocare_0_8394.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_8394.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_8394.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_8394.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_8394.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (74),False,0.05555555555555555
+thyrocare_0_8394.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_8394.jpg,thyroid,unit,1,µg/dl,ua/di,False,0.6
+thyrocare_0_8394.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_8394.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_8394.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_8394.jpg,thyroid,unit,2,µIU/ml,plu/mli,False,0.5
+thyrocare_0_8394.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_8491.jpg,vitamin,test_name,0,25-OH VITAMIN D (TOTAL),25-08 VITAMIN D (TOTAL),False,0.1
+thyrocare_0_8491.jpg,vitamin,value,0,21,21,True,0.0
+thyrocare_0_8491.jpg,vitamin,unit,0,ng/ml,ng/ml,True,0.0
+thyrocare_0_8491.jpg,vitamin,reference_range,0,DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml,DEFICIENCY: <20 ngymi | IRSUFFIGIBNCY : 20-< 30 ng/ml | SUFFICIENCY; 30-100 nq/mi | ToMaTyY =. > 100 naymi,False,0.21176470588235294
+thyrocare_0_8491.jpg,vitamin,test_name,1,VITAMIN B-12,VITAMIN B-12,True,0.0
+thyrocare_0_8491.jpg,vitamin,value,1,551,551,True,0.0
+thyrocare_0_8491.jpg,vitamin,unit,1,pg/ml,pof/mi,False,0.6
+thyrocare_0_8491.jpg,vitamin,reference_range,1,Normal : 211 - 911 pg/ml,Norma’: 211-913 posm,False,0.2631578947368421
+thyrocare_0_8748.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_8748.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_8748.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_8748.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_8748.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_8748.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_8748.jpg,thyroid,unit,1,µg/dl,po/di,False,0.6
+thyrocare_0_8748.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_8748.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_8748.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_8748.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_8748.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_8749.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_8749.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_8749.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_8749.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_8749.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (14),False,0.05555555555555555
+thyrocare_0_8749.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_8749.jpg,thyroid,unit,1,µg/dl,po/di,False,0.6
+thyrocare_0_8749.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_8749.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_8749.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_8749.jpg,thyroid,unit,2,µIU/ml,plu/ml,False,0.3333333333333333
+thyrocare_0_8749.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_9047.jpg,liver,test_name,0,ALKALINE PHOSPHATASE,ALKALINE PHOSPHATASE,True,0.0
+thyrocare_0_9047.jpg,liver,value,0,67,67,True,0.0
+thyrocare_0_9047.jpg,liver,unit,0,U/L,U/L,True,0.0
+thyrocare_0_9047.jpg,liver,reference_range,0,45 - 129,45-129,True,0.0
+thyrocare_0_9047.jpg,liver,test_name,1,BILIRUBIN - TOTAL,BILIRUBIN - TOTAL,True,0.0
+thyrocare_0_9047.jpg,liver,value,1,0.57,0.57,True,0.0
+thyrocare_0_9047.jpg,liver,unit,1,mg/dl,maq/di,False,0.6
+thyrocare_0_9047.jpg,liver,reference_range,1,0.3-1.2,0.3-1.2,True,0.0
+thyrocare_0_9047.jpg,liver,test_name,2,BILIRUBIN -DIRECT,BILIRUBIN -DIRECT,True,0.0
+thyrocare_0_9047.jpg,liver,value,2,0.18,0.18,True,0.0
+thyrocare_0_9047.jpg,liver,unit,2,mg/dl,ma/di,False,0.4
+thyrocare_0_9047.jpg,liver,reference_range,2,< 0.3,<O.%,False,0.5
+thyrocare_0_9047.jpg,liver,test_name,3,BILIRUBIN (INDIRECT),BILIRUBIN (INDIRECT),True,0.0
+thyrocare_0_9047.jpg,liver,value,3,0.39,0.39,True,0.0
+thyrocare_0_9047.jpg,liver,unit,3,mg/dl,ma/di,False,0.4
+thyrocare_0_9047.jpg,liver,reference_range,3,0-0.9,0-0.9,True,0.0
+thyrocare_0_9047.jpg,liver,test_name,4,GAMMA GLUTAMYL TRANSFERASE (GGT),GAMMA GLUTAMYL TRANSFERASE (GGT),True,0.0
+thyrocare_0_9047.jpg,liver,value,4,34.3,34.3,True,0.0
+thyrocare_0_9047.jpg,liver,unit,4,U/l,U/I,False,0.3333333333333333
+thyrocare_0_9047.jpg,liver,reference_range,4,< 55,< 55,True,0.0
+thyrocare_0_9047.jpg,liver,test_name,5,ASPARTATE AMINOTRANSFERASE (SGOT ),ASPARTATE AMINOTRANSFERASE (SGOT ),True,0.0
+thyrocare_0_9047.jpg,liver,value,5,33.1,33.1,True,0.0
+thyrocare_0_9047.jpg,liver,unit,5,U/l,Us!,False,0.6666666666666666
+thyrocare_0_9047.jpg,liver,reference_range,5,< 35,< 35,True,0.0
+thyrocare_0_9047.jpg,liver,test_name,6,ALANINE TRANSAMINASE (SGPT),ALANINE TRANSAMINASE (SGPT),True,0.0
+thyrocare_0_9047.jpg,liver,value,6,38.9,38.9,True,0.0
+thyrocare_0_9047.jpg,liver,unit,6,U/l,u/I,False,0.3333333333333333
+thyrocare_0_9047.jpg,liver,reference_range,6,< 45,< 45,True,0.0
+thyrocare_0_9047.jpg,liver,test_name,7,PROTEIN - TOTAL,PROTEIN - TOTAL,True,0.0
+thyrocare_0_9047.jpg,liver,value,7,7.14,7.14,True,0.0
+thyrocare_0_9047.jpg,liver,unit,7,gm/dl,gm/dl,True,0.0
+thyrocare_0_9047.jpg,liver,reference_range,7,5.7-8.2,5.7-8.2,True,0.0
+thyrocare_0_9047.jpg,liver,test_name,8,ALBUMIN - SERUM,ALBUMIN - SERUM,True,0.0
+thyrocare_0_9047.jpg,liver,value,8,3.93,3.93,True,0.0
+thyrocare_0_9047.jpg,liver,unit,8,gm/dl,gm/di,False,0.2
+thyrocare_0_9047.jpg,liver,reference_range,8,3.2-4.8,3.2-4.8,True,0.0
+thyrocare_0_9047.jpg,liver,test_name,9,SERUM ALB/GLOBULIN RATIO,SERUM ALB/GLOBULIN RATIO,True,0.0
+thyrocare_0_9047.jpg,liver,value,9,1.22,1.22,True,0.0
+thyrocare_0_9047.jpg,liver,unit,9,Ratio,Ratio,True,0.0
+thyrocare_0_9047.jpg,liver,reference_range,9,0.9 - 2,0.9-2,True,0.0
+thyrocare_0_9047.jpg,liver,test_name,10,SERUM GLOBULIN,SERUM GLOBULIN,True,0.0
+thyrocare_0_9047.jpg,liver,value,10,3.21,3.21,True,0.0
+thyrocare_0_9047.jpg,liver,unit,10,gm/dL,qm/d,False,0.4
+thyrocare_0_9047.jpg,liver,reference_range,10,2.5-3.4,2.5-3.4,True,0.0
+thyrocare_0_9076.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_9076.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_9076.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_9076.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_9076.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_9076.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_9076.jpg,thyroid,unit,1,µg/dl,pa/di,False,0.6
+thyrocare_0_9076.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_9076.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_9076.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_9076.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_9076.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_912.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_912.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_912.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_912.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_912.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_912.jpg,thyroid,value,1,5,,False,1.0
+thyrocare_0_912.jpg,thyroid,unit,1,µg/dl,va/di,False,0.6
+thyrocare_0_912.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_912.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_912.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_912.jpg,thyroid,unit,2,µIU/ml,piu/mi,False,0.3333333333333333
+thyrocare_0_912.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_9207.jpg,liver,test_name,0,ALKALINE PHOSPHATASE,ALKALINE PHOSPHATASE,True,0.0
+thyrocare_0_9207.jpg,liver,value,0,67,67,True,0.0
+thyrocare_0_9207.jpg,liver,unit,0,U/L,U/L,True,0.0
+thyrocare_0_9207.jpg,liver,reference_range,0,45 - 129,45 - 129,True,0.0
+thyrocare_0_9207.jpg,liver,test_name,1,BILIRUBIN - TOTAL,BILIRUBIN - TOTAL,True,0.0
+thyrocare_0_9207.jpg,liver,value,1,0.57,0.57,True,0.0
+thyrocare_0_9207.jpg,liver,unit,1,mg/dl,mq/di,False,0.4
+thyrocare_0_9207.jpg,liver,reference_range,1,0.3-1.2,0.3-1.2,True,0.0
+thyrocare_0_9207.jpg,liver,test_name,2,BILIRUBIN -DIRECT,BILIRUBIN -DIRECT,True,0.0
+thyrocare_0_9207.jpg,liver,value,2,0.18,0.18,True,0.0
+thyrocare_0_9207.jpg,liver,unit,2,mg/dl,ma/dil,False,0.4
+thyrocare_0_9207.jpg,liver,reference_range,2,< 0.3,<O.%,False,0.5
+thyrocare_0_9207.jpg,liver,test_name,3,BILIRUBIN (INDIRECT),BILIRUBIN (INDIRECT),True,0.0
+thyrocare_0_9207.jpg,liver,value,3,0.39,0.39,True,0.0
+thyrocare_0_9207.jpg,liver,unit,3,mg/dl,mq/dl,False,0.2
+thyrocare_0_9207.jpg,liver,reference_range,3,0-0.9,0-0.9,True,0.0
+thyrocare_0_9207.jpg,liver,test_name,4,GAMMA GLUTAMYL TRANSFERASE (GGT),GAMMA GLUTAMYL TRANSFERASE (GGT),True,0.0
+thyrocare_0_9207.jpg,liver,value,4,34.3,34.3,True,0.0
+thyrocare_0_9207.jpg,liver,unit,4,U/l,Us!,False,0.6666666666666666
+thyrocare_0_9207.jpg,liver,reference_range,4,< 55,< 55,True,0.0
+thyrocare_0_9207.jpg,liver,test_name,5,ASPARTATE AMINOTRANSFERASE (SGOT ),ASPARTATE AMINOTRANSFERASE (SGOT ),True,0.0
+thyrocare_0_9207.jpg,liver,value,5,33.1,33.1,True,0.0
+thyrocare_0_9207.jpg,liver,unit,5,U/l,U/l,True,0.0
+thyrocare_0_9207.jpg,liver,reference_range,5,< 35,< 35,True,0.0
+thyrocare_0_9207.jpg,liver,test_name,6,ALANINE TRANSAMINASE (SGPT),ALANINE TRANSAMINASE (SGPT),True,0.0
+thyrocare_0_9207.jpg,liver,value,6,38.9,38.9,True,0.0
+thyrocare_0_9207.jpg,liver,unit,6,U/l,U/I,False,0.3333333333333333
+thyrocare_0_9207.jpg,liver,reference_range,6,< 45,< 45,True,0.0
+thyrocare_0_9207.jpg,liver,test_name,7,PROTEIN - TOTAL,PROTEIN - TOTAI,False,0.07692307692307693
+thyrocare_0_9207.jpg,liver,value,7,7.14,7.14,True,0.0
+thyrocare_0_9207.jpg,liver,unit,7,gm/dl,qr/dl,False,0.4
+thyrocare_0_9207.jpg,liver,reference_range,7,5.7-8.2,5.7-8.2,True,0.0
+thyrocare_0_9207.jpg,liver,test_name,8,ALBUMIN - SERUM,ALBUMIN - SERUM,True,0.0
+thyrocare_0_9207.jpg,liver,value,8,3.93,3.93,True,0.0
+thyrocare_0_9207.jpg,liver,unit,8,gm/dl,grn/di,False,0.6
+thyrocare_0_9207.jpg,liver,reference_range,8,3.2-4.8,3.2-4.8,True,0.0
+thyrocare_0_9207.jpg,liver,test_name,9,SERUM ALB/GLOBULIN RATIO,SERUM ALB/GLOBULIN RATIO,True,0.0
+thyrocare_0_9207.jpg,liver,value,9,1.22,1.22,True,0.0
+thyrocare_0_9207.jpg,liver,unit,9,Ratio,Ratio,True,0.0
+thyrocare_0_9207.jpg,liver,reference_range,9,0.9 - 2,0.9-2,True,0.0
+thyrocare_0_9207.jpg,liver,test_name,10,SERUM GLOBULIN,SERUM GLOBULIN,True,0.0
+thyrocare_0_9207.jpg,liver,value,10,3.21,3.21,True,0.0
+thyrocare_0_9207.jpg,liver,unit,10,gm/dL,am/d-L,False,0.4
+thyrocare_0_9207.jpg,liver,reference_range,10,2.5-3.4,2.5-3.4,True,0.0
+thyrocare_0_9445.jpg,vitamin,test_name,0,25-OH VITAMIN D (TOTAL),25-OH VITAMIN D (TOTAL),True,0.0
+thyrocare_0_9445.jpg,vitamin,value,0,21,21,True,0.0
+thyrocare_0_9445.jpg,vitamin,unit,0,ng/ml,ng/mi,False,0.2
+thyrocare_0_9445.jpg,vitamin,reference_range,0,DEFICIENCY : <20 ng/ml | INSUFFICIENCY : 20-<30 ng/ml | SUFFICIENCY : 30-100 ng/ml | TOXICITY : >100 ng/ml,DEFICIENCY |< 20 nom | INSUFFIQQPNCY : 20-<30 ng/init | SUFFICIENCY : 30-100 ngsmi | TORCITY > >100 ngym,False,0.21176470588235294
+thyrocare_0_9445.jpg,vitamin,test_name,1,VITAMIN B-12,VITAMIN 8-12,False,0.09090909090909091
+thyrocare_0_9445.jpg,vitamin,value,1,551,,False,1.0
+thyrocare_0_9445.jpg,vitamin,unit,1,pg/ml,pg/mi,False,0.2
+thyrocare_0_9445.jpg,vitamin,reference_range,1,Normal : 211 - 911 pg/ml,Norma); 231-933 pgvine,False,0.47368421052631576
+thyrocare_0_9447.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_9447.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_9447.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_9447.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_9447.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_9447.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_9447.jpg,thyroid,unit,1,µg/dl,yg/dl,False,0.2
+thyrocare_0_9447.jpg,thyroid,reference_range,1,4.5-12,45-12,False,0.16666666666666666
+thyrocare_0_9447.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_9447.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_9447.jpg,thyroid,unit,2,µIU/ml,plu/m,False,0.5
+thyrocare_0_9447.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_9575.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_9575.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_9575.jpg,thyroid,unit,0,ng/dl,ng/di,False,0.2
+thyrocare_0_9575.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_9575.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_9575.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_9575.jpg,thyroid,unit,1,µg/dl,va/di,False,0.6
+thyrocare_0_9575.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_9575.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_9575.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_9575.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_9575.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0
+thyrocare_0_9691.jpg,thyroid,test_name,0,TOTAL TRIIODOTHYRONINE (T3),TOTAL TRIIODOTHYRONINE (T3),True,0.0
+thyrocare_0_9691.jpg,thyroid,value,0,76,76,True,0.0
+thyrocare_0_9691.jpg,thyroid,unit,0,ng/dl,ng/dl,True,0.0
+thyrocare_0_9691.jpg,thyroid,reference_range,0,60-200,60-200,True,0.0
+thyrocare_0_9691.jpg,thyroid,test_name,1,TOTAL THYROXINE (T4),TOTAL THYROXINE (T4),True,0.0
+thyrocare_0_9691.jpg,thyroid,value,1,5,5,True,0.0
+thyrocare_0_9691.jpg,thyroid,unit,1,µg/dl,va/di,False,0.6
+thyrocare_0_9691.jpg,thyroid,reference_range,1,4.5-12,4.5-12,True,0.0
+thyrocare_0_9691.jpg,thyroid,test_name,2,THYROID STIMULATING HORMONE (TSH),THYROID STIMULATING HORMONE (TSH),True,0.0
+thyrocare_0_9691.jpg,thyroid,value,2,2.14,2.14,True,0.0
+thyrocare_0_9691.jpg,thyroid,unit,2,µIU/ml,plu/mi,False,0.5
+thyrocare_0_9691.jpg,thyroid,reference_range,2,0.3-5.5,0.3-5.5,True,0.0

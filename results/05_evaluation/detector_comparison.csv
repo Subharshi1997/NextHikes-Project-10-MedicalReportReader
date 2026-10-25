@@ -1,0 +1,3 @@
+detector,params_M,weights_MB,test_mAP50,test_mAP50_95,field_recall_iou50,exact_brief_C,exact_shipped_E,cer_shipped_E,value_exact_E,sec_per_photo,test_photos,fields
+yolov3u,103.7,207.8,0.994,0.806,1.0,62.2,82.9,0.078,88.7,2.24,14,222
+yolo26n,2.5,5.5,0.995,0.876,1.0,68.0,89.2,0.036,93.5,2.31,14,222

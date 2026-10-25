@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lab Report OCR</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f7f9; --surface: #ffffff; --surface-2: #f1f3f6; --ink: #111827; --ink-2: #374151;
+    --muted: #6b7280; --line: #e5e7eb; --line-2: #d1d5db;
+    --brand: #2563eb; --brand-ink: #ffffff; --brand-soft: #eff4ff;
+    --ok: #15803d; --ok-soft: #e8f6ee; --warn: #b45309; --warn-soft: #fff6e6; --warn-line: #f59e0b;
+    --bad: #b91c1c; --bad-soft: #fdecec;
+    --c-test: #2a78d6; --c-value: #eb3424; --c-unit: #1e9e1e; --c-range: #aa28b4;
+    --shadow: 0 1px 2px rgba(16, 24, 40, .05), 0 1px 3px rgba(16, 24, 40, .06);
+    --radius: 14px;
+    color-scheme: light;
+  }
+  :root[data-theme="dark"] {
+    --bg: #0d1117; --surface: #151b23; --surface-2: #1b232d; --ink: #e6edf3; --ink-2: #c9d1d9;
+    --muted: #8b949e; --line: #262f3a; --line-2: #33404d;
+    --brand: #5b8def; --brand-ink: #0d1117; --brand-soft: #172338;
+    --ok: #4ac27a; --ok-soft: #12291c; --warn: #f0b252; --warn-soft: #2d2311; --warn-line: #d29922;
+    --bad: #f47067; --bad-soft: #321718;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .4);
+    color-scheme: dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0d1117; --surface: #151b23; --surface-2: #1b232d; --ink: #e6edf3; --ink-2: #c9d1d9;
+      --muted: #8b949e; --line: #262f3a; --line-2: #33404d;
+      --brand: #5b8def; --brand-ink: #0d1117; --brand-soft: #172338;
+      --ok: #4ac27a; --ok-soft: #12291c; --warn: #f0b252; --warn-soft: #2d2311; --warn-line: #d29922;
+      --bad: #f47067; --bad-soft: #321718;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .4);
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: var(--bg); color: var(--ink); font: 14.5px/1.5 Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+         -webkit-font-smoothing: antialiased; min-height: 100vh; display: flex; flex-direction: column; }
+  button { font: inherit; cursor: pointer; }
+  .wrap { width: 100%; max-width: 1240px; margin: 0 auto; padding: 0 24px; }
+  @media (max-width: 600px) { .wrap { padding: 0 16px; } }
+
+  /* ---------- header */
+  header { background: var(--surface); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 10; }
+  header .wrap { display: flex; align-items: center; gap: 14px; height: 60px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 650; font-size: 15.5px; letter-spacing: -.01em; }
+  .brand .mark { width: 30px; height: 30px; border-radius: 8px; background: var(--brand); display: grid; place-items: center; }
+  .brand small { color: var(--muted); font-weight: 500; font-size: 13px; margin-left: 2px; }
+  .spacer { flex: 1; }
+  .status { display: inline-flex; align-items: center; gap: 8px; font-size: 12.5px; color: var(--muted);
+            border: 1px solid var(--line); border-radius: 99px; padding: 4px 12px; background: var(--surface-2); white-space: nowrap; }
+  .status .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--muted); }
+  .status.ready .dot { background: var(--ok); box-shadow: 0 0 0 3px color-mix(in srgb, var(--ok) 20%, transparent); }
+  .status.down .dot { background: var(--bad); }
+  .iconbtn { width: 34px; height: 34px; border-radius: 9px; border: 1px solid var(--line); background: var(--surface);
+             color: var(--ink-2); display: grid; place-items: center; }
+  .iconbtn:hover { background: var(--surface-2); }
+  @media (max-width: 640px) { .status .detail { display: none; } .brand small { display: none; } }
+
+  main { flex: 1; padding: 32px 0 48px; }
+  h1 { font-size: 26px; line-height: 1.25; letter-spacing: -.02em; margin: 0 0 6px; font-weight: 700; }
+  .lede { color: var(--muted); margin: 0 0 24px; max-width: 720px; font-size: 15px; }
+
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+
+  /* ---------- upload view */
+  .upload { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 20px; }
+  @media (max-width: 900px) { .upload { grid-template-columns: minmax(0, 1fr); } }
+  .drop { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
+          padding: 44px 24px; min-height: 300px; border: 1.5px dashed var(--line-2); border-radius: var(--radius);
+          background: var(--surface); cursor: pointer; transition: border-color .15s, background .15s; }
+  .drop:hover, .drop.over { border-color: var(--brand); background: var(--brand-soft); }
+  .drop:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+  .drop .icon { width: 52px; height: 52px; border-radius: 14px; background: var(--brand-soft); color: var(--brand);
+                display: grid; place-items: center; margin-bottom: 16px; }
+  .drop h2 { font-size: 17px; margin: 0 0 4px; font-weight: 600; }
+  .drop p { margin: 0 0 18px; color: var(--muted); font-size: 13.5px; }
+  .btn { display: inline-flex; align-items: center; gap: 8px; border-radius: 9px; padding: 9px 16px; font-weight: 550;
+         border: 1px solid transparent; background: var(--brand); color: var(--brand-ink); font-size: 14px; white-space: nowrap; }
+  .btn:hover { filter: brightness(1.06); }
+  .btn.ghost { background: var(--surface); color: var(--ink); border-color: var(--line-2); }
+  .btn.ghost:hover { background: var(--surface-2); filter: none; }
+  .btn:disabled { opacity: .55; cursor: default; }
+  input[type=file] { display: none; }
+
+  .side { padding: 22px; display: flex; flex-direction: column; gap: 18px; }
+  .side h3 { margin: 0; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  .samples { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .sample { border: 1px solid var(--line); border-radius: 10px; background: var(--surface-2); padding: 0; overflow: hidden;
+            text-align: left; color: var(--ink); transition: border-color .15s, transform .15s; }
+  .sample:hover { border-color: var(--brand); transform: translateY(-1px); }
+  .sample img { display: block; width: 100%; height: 74px; object-fit: cover; object-position: center 60%; }
+  .sample span { display: block; padding: 7px 9px; font-size: 12.5px; font-weight: 550; }
+  .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  .steps li { display: grid; grid-template-columns: 26px 1fr; gap: 10px; align-items: start; font-size: 13.5px; color: var(--ink-2); }
+  .steps b { display: grid; place-items: center; width: 24px; height: 24px; border-radius: 7px; background: var(--surface-2);
+             border: 1px solid var(--line); font-size: 12px; color: var(--muted); }
+  .steps em { display: block; font-style: normal; color: var(--muted); font-size: 12.5px; }
+
+  /* ---------- loading */
+  .loading { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; padding: 80px 24px; text-align: center; }
+  .spinner { width: 36px; height: 36px; border-radius: 50%; border: 3px solid var(--line); border-top-color: var(--brand); animation: spin .8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loading .what { font-weight: 600; }
+  .loading .sub { color: var(--muted); font-size: 13px; }
+
+  /* ---------- results */
+  .toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: 18px; }
+  .toolbar .file { display: flex; align-items: center; gap: 10px; min-width: 0; }
+  .toolbar .file strong { font-size: 16px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .toolbar .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-left: auto; }
+  .tiles { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin-bottom: 18px; }
+  @media (max-width: 760px) { .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .toolbar .actions { width: 100%; margin-left: 0; } .toolbar .actions .btn { flex: 1; justify-content: center; padding: 9px 10px; } }
+  .tile { padding: 14px 16px; }
+  .tile .k { font-size: 12.5px; color: var(--muted); }
+  .tile .v { font-size: 24px; font-weight: 650; letter-spacing: -.02em; margin-top: 2px; font-variant-numeric: tabular-nums; }
+  .tile .v small { font-size: 13px; font-weight: 500; color: var(--muted); margin-left: 3px; }
+  .tile.warn .v { color: var(--warn); }
+  .tile.ok .v { color: var(--ok); }
+
+  .panes { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: 18px; align-items: start; }
+  .panes > .card:first-child { position: sticky; top: 76px; }
+  @media (max-width: 1000px) { .panes { grid-template-columns: minmax(0, 1fr); } .panes > .card:first-child { position: static; } }
+  .pane-h { display: flex; align-items: center; gap: 10px; padding: 14px 18px; border-bottom: 1px solid var(--line); }
+  .pane-h h2 { margin: 0; font-size: 14px; font-weight: 600; }
+  .pane-h .hint { margin-left: auto; color: var(--muted); font-size: 12.5px; }
+  .imgbox { padding: 14px; }
+  .imgbox a { display: block; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); background: var(--surface-2); }
+  .imgbox img { display: block; width: 100%; height: auto; }
+  .legend { display: flex; flex-wrap: wrap; gap: 14px; padding: 0 18px 16px; font-size: 12.5px; color: var(--muted); }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+
+  .tablewrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+  thead th { text-align: left; font-weight: 600; font-size: 11.5px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted);
+             background: var(--surface-2); padding: 9px 14px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  tbody td { padding: 9px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tbody tr:last-child td { border-bottom: 0; }
+  tbody tr.flag td:first-child { box-shadow: inset 3px 0 0 var(--warn-line); }
+  tbody tr.flag { background: color-mix(in srgb, var(--warn-soft) 55%, transparent); }
+  td.idx { color: var(--muted); font-variant-numeric: tabular-nums; width: 34px; }
+  td.ed { border-radius: 6px; outline: 1px solid transparent; transition: outline-color .12s, background .12s; }
+  td.ed:hover { outline-color: var(--line-2); }
+  td.ed:focus { outline: 2px solid var(--brand); background: var(--surface); }
+  td.ed.changed { background: var(--brand-soft); }
+  td.num { font-family: "JetBrains Mono", ui-monospace, Consolas, monospace; font-size: 13px; white-space: nowrap; }
+  td.name { font-weight: 550; min-width: 220px; }
+  td.range { color: var(--ink-2); min-width: 170px; white-space: pre-line; }
+  td.empty::before { content: "missing"; color: var(--bad); font-style: italic; font-size: 12.5px; }
+  .conf { display: flex; align-items: center; gap: 8px; min-width: 92px; }
+  .bar { flex: 1; height: 6px; border-radius: 99px; background: var(--line); overflow: hidden; min-width: 44px; }
+  .bar span { display: block; height: 100%; border-radius: 99px; }
+  .conf small { color: var(--muted); font-variant-numeric: tabular-nums; width: 24px; text-align: right; }
+  .chip { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; font-weight: 550; padding: 2px 9px; border-radius: 99px; white-space: nowrap; }
+  .chip.ok { background: var(--ok-soft); color: var(--ok); }
+  .chip.warn { background: var(--warn-soft); color: var(--warn); }
+  .badge { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 550; color: var(--ink-2);
+           border: 1px solid var(--line); background: var(--surface-2); border-radius: 99px; padding: 2px 10px; white-space: nowrap; }
+  .badge.exact { color: var(--ok); border-color: color-mix(in srgb, var(--ok) 35%, var(--line)); background: var(--ok-soft); }
+  .tabs { display: flex; gap: 6px; padding: 12px 14px 0; flex-wrap: wrap; }
+  .tab { border: 1px solid var(--line); background: var(--surface); color: var(--ink-2); border-radius: 8px; padding: 5px 11px;
+         font-size: 12.5px; font-weight: 550; }
+  .tab:hover { background: var(--surface-2); }
+  .tab[aria-selected="true"] { background: var(--brand-soft); border-color: var(--brand); color: var(--brand); }
+  .tab small { color: var(--muted); font-weight: 500; margin-left: 4px; }
+  .src { font-size: 11px; font-weight: 600; color: var(--ok); letter-spacing: .02em; }
+  .why { color: var(--muted); font-size: 11.5px; margin-top: 3px; white-space: nowrap; }
+  td.st { white-space: nowrap; }
+  .tfoot { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; padding: 12px 18px; border-top: 1px solid var(--line);
+           color: var(--muted); font-size: 12.5px; }
+
+  .toast { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); background: var(--ink); color: var(--bg);
+           padding: 10px 16px; border-radius: 10px; font-size: 13.5px; box-shadow: 0 8px 24px rgba(0,0,0,.2); max-width: calc(100% - 32px); }
+  footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 12.5px; }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 20px; padding-top: 16px; padding-bottom: 16px; }
+  footer a { color: inherit; }
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <span class="mark" aria-hidden="true">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6M9 17h4"/></svg>
+      </span>
+      Lab Report OCR <small>YOLO + Tesseract</small>
+    </div>
+    <div class="spacer"></div>
+    <span class="status" id="status"><span class="dot"></span><span id="statusText">Connecting…</span></span>
+    <button class="iconbtn" id="theme" title="Toggle light / dark" aria-label="Toggle light or dark theme">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <!-- upload view -->
+    <section id="viewUpload">
+      <h1>Turn a lab report into a spreadsheet</h1>
+      <p class="lede">Upload a photo, a scan or a PDF of a lab report. The detector finds each test name, value, unit and reference range, and you get an editable table to check and download. Digital PDFs are read straight from their text layer.</p>
+      <div class="upload">
+        <label class="drop" id="drop" tabindex="0">
+          <span class="icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M17 8l-5-5-5 5"/><path d="M12 3v12"/></svg>
+          </span>
+          <h2>Drop a report photo or PDF here</h2>
+          <p>JPG, PNG or PDF (multi-page), up to 25 MB · processed in memory, never stored</p>
+          <span class="btn">Choose file</span>
+          <input type="file" id="file" accept="image/*,application/pdf,.pdf">
+        </label>
+        <aside class="card side">
+          <div>
+            <h3>Try a sample report</h3>
+            <div class="samples" id="samples" style="margin-top:10px"></div>
+          </div>
+          <div>
+            <h3>How it works</h3>
+            <ol class="steps" style="margin-top:10px">
+              <li><b>1</b><div>Detect fields<em>YOLO boxes test name, value, unit and range</em></div></li>
+              <li><b>2</b><div>Clean each crop<em>3× resize, grayscale, Otsu threshold</em></div></li>
+              <li><b>3</b><div>Read the text<em>PDF text layer when present, otherwise Tesseract OCR</em></div></li>
+              <li><b>4</b><div>Rebuild the rows<em>tilt-aware matching, uncertain rows flagged</em></div></li>
+            </ol>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- loading view -->
+    <section id="viewLoading" class="card loading hidden" aria-live="polite">
+      <div class="spinner" aria-hidden="true"></div>
+      <div class="what" id="loadingWhat">Reading report…</div>
+      <div class="sub" id="loadingSub">Detecting fields</div>
+    </section>
+
+    <!-- results view -->
+    <section id="viewResult" class="hidden">
+      <div class="toolbar">
+        <div class="file">
+          <button class="iconbtn" id="back" title="New scan" aria-label="Start a new scan">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <strong id="fileName">report.jpg</strong>
+          <span class="badge" id="docBadge"></span>
+        </div>
+        <div class="actions">
+          <button class="btn ghost" id="again">New scan</button>
+          <button class="btn ghost" id="xlsx">Download Excel</button>
+          <button class="btn" id="csv">Download CSV</button>
+        </div>
+      </div>
+
+      <div class="tiles">
+        <div class="card tile"><div class="k">Tests extracted</div><div class="v" id="tTests">0</div></div>
+        <div class="card tile" id="tileReview"><div class="k">Need review</div><div class="v" id="tReview">0</div></div>
+        <div class="card tile"><div class="k">Mean confidence</div><div class="v" id="tConf">0<small>%</small></div></div>
+        <div class="card tile"><div class="k">Processing time</div><div class="v" id="tTime">0<small>s</small></div></div>
+      </div>
+
+      <div class="panes">
+        <section class="card">
+          <div class="pane-h"><h2>Detected fields</h2><span class="hint">click to enlarge</span></div>
+          <div class="tabs hidden" id="pageTabs" role="tablist" aria-label="PDF pages"></div>
+          <div class="imgbox"><a id="imgLink" target="_blank" rel="noopener"><img id="annotated" alt="Report photo with the detected fields boxed"></a></div>
+          <div class="legend">
+            <span><i style="background:var(--c-test)"></i>Test name</span>
+            <span><i style="background:var(--c-value)"></i>Value</span>
+            <span><i style="background:var(--c-unit)"></i>Unit</span>
+            <span><i style="background:var(--c-range)"></i>Reference range</span>
+          </div>
+        </section>
+        <section class="card">
+          <div class="pane-h"><h2>Extracted results</h2><span class="hint" id="editHint">Click any cell to correct it</span></div>
+          <div class="tablewrap">
+            <table>
+              <thead><tr><th>#</th><th>Test</th><th>Value</th><th>Unit</th><th>Reference range</th><th>Confidence</th><th>Status</th></tr></thead>
+              <tbody id="rows"></tbody>
+            </table>
+          </div>
+          <div class="tfoot">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            Rows are flagged when a field is missing, a value is not a number, or the detector or OCR is unsure. Downloads include your corrections.
+          </div>
+        </section>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Only the four test fields are extracted; patient details are never read.</span>
+    <span class="spacer"></span>
+    <a href="/docs" target="_blank" rel="noopener">API docs</a>
+    <a href="/health" target="_blank" rel="noopener">Health</a>
+  </div>
+</footer>
+
+<div class="toast hidden" id="toast" role="alert"></div>
+
+<script>
+const $ = id => document.getElementById(id);
+const FIELDS = ["test_name", "value", "unit", "reference_range"];
+const CLS = { test_name: "name", value: "num", unit: "num", reference_range: "range" };
+const REASONS = { value_not_numeric: "value is not a number", low_detection_conf: "detector unsure", low_ocr_conf: "OCR unsure" };
+const SAMPLE_LABEL = n => /scanned\.pdf$/.test(n) ? "Scanned PDF"
+  : /digital\.pdf$/.test(n) ? "Digital PDF"
+  : n.replace(/_report.*$/, "").replace(/^\w/, c => c.toUpperCase()) + " panel";
+const KIND = { "image": "Photo", "pdf-scan": "Scanned PDF", "pdf-digital": "Digital PDF · text layer" };
+let current = null, stepTimer = null;
+
+/* ---------- theme */
+const savedTheme = (() => { try { return localStorage.getItem("theme"); } catch { return null; } })();
+if (savedTheme) document.documentElement.dataset.theme = savedTheme;
+$("theme").addEventListener("click", () => {
+  const dark = document.documentElement.dataset.theme
+    ? document.documentElement.dataset.theme === "dark"
+    : matchMedia("(prefers-color-scheme: dark)").matches;
+  const next = dark ? "light" : "dark";
+  document.documentElement.dataset.theme = next;
+  try { localStorage.setItem("theme", next); } catch {}
+});
+
+/* ---------- status + samples */
+fetch("/health").then(r => r.json()).then(h => {
+  $("status").classList.add("ready");
+  const det = { yolo26n: "YOLO26n", yolov3u: "YOLOv3" }[h.detector] || h.detector || h.weights;
+  $("statusText").innerHTML = `Ready<span class="detail"> · ${det} · Tesseract · ${h.mode} mode</span>`;
+}).catch(() => { $("status").classList.add("down"); $("statusText").textContent = "Server offline"; });
+
+fetch("/api/samples").then(r => r.json()).then(list => {
+  const box = $("samples");
+  list.forEach(n => {
+    const b = document.createElement("button");
+    b.className = "sample"; b.type = "button"; b.title = `Run the sample: ${SAMPLE_LABEL(n)}`;
+    const img = document.createElement("img"); img.alt = ""; img.loading = "lazy"; img.src = `/api/samples/${encodeURIComponent(n)}/image`;
+    const s = document.createElement("span"); s.textContent = SAMPLE_LABEL(n);
+    b.append(img, s);
+    b.addEventListener("click", () => runSample(n));
+    box.append(b);
+  });
+  const q = new URLSearchParams(location.search).get("sample");
+  if (q && list.includes(q)) runSample(q);
+}).catch(() => {});
+
+/* ---------- views */
+function show(view) {
+  ["viewUpload", "viewLoading", "viewResult"].forEach(v => $(v).classList.toggle("hidden", v !== view));
+  window.scrollTo({ top: 0 });
+}
+function startLoading(name) {
+  $("loadingWhat").textContent = `Reading ${name}…`;
+  const steps = ["Detecting fields", "Cleaning each crop", "Reading text with Tesseract", "Rebuilding the table rows"];
+  let i = 0; $("loadingSub").textContent = steps[0];
+  clearInterval(stepTimer);
+  stepTimer = setInterval(() => { i = Math.min(i + 1, steps.length - 1); $("loadingSub").textContent = steps[i]; }, 700);
+  show("viewLoading");
+}
+function toast(msg) {
+  const t = $("toast"); t.textContent = msg; t.classList.remove("hidden");
+  clearTimeout(t._h); t._h = setTimeout(() => t.classList.add("hidden"), 4500);
+}
+
+async function request(name, init, url) {
+  startLoading(name);
+  try {
+    const res = await fetch(url, init);
+    const body = await res.json();
+    if (!res.ok) throw new Error(body.detail || res.statusText);
+    current = body; render(body); show("viewResult");
+  } catch (e) {
+    show("viewUpload"); toast("Could not read that image: " + e.message);
+  } finally { clearInterval(stepTimer); }
+}
+function upload(file) {
+  if (!file) return;
+  const fd = new FormData(); fd.append("file", file);
+  request(file.name, { method: "POST", body: fd }, "/api/ocr");
+}
+function runSample(n) { request(n, { method: "POST" }, `/api/samples/${encodeURIComponent(n)}`); }
+
+/* ---------- rendering */
+function reasonText(r) {
+  return (r || "").split(";").filter(Boolean).map(x =>
+    x.startsWith("missing:") ? "missing " + x.slice(8).replaceAll("_", " ").replaceAll("+", ", ") : (REASONS[x] || x)).join(" · ");
+}
+function confColor(c) { return c >= 75 ? "var(--ok)" : c >= 55 ? "var(--warn-line)" : "var(--bad)"; }
+
+function render(body) {
+  $("fileName").textContent = body.image;
+  const pages = body.pages || [{ page: 1, kind: "image", annotated_jpeg_base64: body.annotated_jpeg_base64 }];
+  const kinds = new Set(pages.map(p => p.kind));
+  const kind = kinds.size === 1 ? pages[0].kind : "pdf-mixed";
+  const badge = $("docBadge");
+  badge.textContent = (KIND[kind] || "PDF") + (pages.length > 1 ? ` · ${pages.length} pages` : "");
+  badge.className = "badge" + (kind === "pdf-digital" ? " exact" : "");
+  badge.title = kind === "pdf-digital" ? "Fields are read from the PDF's own text layer: exact, no OCR errors"
+    : kind === "pdf-scan" ? "No usable text layer: every field is read with OCR" : "";
+
+  const n = body.rows.length, flagged = body.rows.filter(r => r.needs_review).length;
+  const confs = body.rows.map(r => r.ocr_conf_min).filter(v => v != null);
+  $("tTests").textContent = n;
+  $("tReview").textContent = flagged;
+  $("tileReview").className = "card tile " + (flagged ? "warn" : "ok");
+  $("tConf").innerHTML = (confs.length ? Math.round(confs.reduce((a, b) => a + b, 0) / confs.length) : 0) + "<small>%</small>";
+  $("tTime").innerHTML = body.seconds.toFixed(1) + "<small>s</small>";
+
+  const tabs = $("pageTabs"); tabs.replaceChildren();
+  tabs.classList.toggle("hidden", pages.length < 2);
+  pages.forEach(p => {
+    const t = document.createElement("button");
+    t.className = "tab"; t.type = "button"; t.setAttribute("role", "tab");
+    const cnt = body.rows.filter(r => (r.page ?? 1) === p.page).length;
+    t.innerHTML = `Page ${p.page}<small>${cnt} test${cnt === 1 ? "" : "s"}</small>`;
+    t.addEventListener("click", () => showPage(body, p.page));
+    tabs.append(t);
+  });
+  showPage(body, pages[0].page);
+}
+
+function showPage(body, pageNo) {
+  const pages = body.pages || [{ page: 1, annotated_jpeg_base64: body.annotated_jpeg_base64 }];
+  const pg = pages.find(p => p.page === pageNo) || pages[0];
+  [...$("pageTabs").children].forEach((t, k) => t.setAttribute("aria-selected", String(pages[k].page === pageNo)));
+  const src = "data:image/jpeg;base64," + pg.annotated_jpeg_base64;
+  $("annotated").src = src;
+  $("imgLink").onclick = e => {
+    e.preventDefault();
+    const w = window.open();
+    if (w) w.document.write(`<title>${body.image} · page ${pg.page}</title><img src="${src}" style="max-width:100%">`);
+  };
+
+  const tb = $("rows"); tb.replaceChildren();
+  body.rows.forEach((r, i) => {
+    if ((r.page ?? 1) !== pageNo) return;                // i stays the index into current.rows
+    const tr = document.createElement("tr");
+    if (r.needs_review) tr.className = "flag";
+    const idx = document.createElement("td"); idx.className = "idx"; idx.textContent = r.row; tr.append(idx);
+    FIELDS.forEach(f => {
+      const td = document.createElement("td");
+      td.className = "ed " + CLS[f] + (r[f] ? "" : " empty");
+      td.contentEditable = "true"; td.spellcheck = false;
+      const multi = f === "reference_range";           // multi-line ranges: one band per line on screen,
+      td.textContent = multi ? (r[f] ?? "").split(" | ").join("\n") : (r[f] ?? "");   // " | "-joined in the file
+      const orig = td.textContent;
+      td.addEventListener("input", () => {
+        current.rows[i][f] = multi
+          ? td.innerText.split(/\n+/).map(x => x.trim()).filter(Boolean).join(" | ")
+          : td.textContent.trim();
+        td.classList.toggle("changed", td.textContent !== orig);
+        td.classList.toggle("empty", !td.textContent.trim());
+      });
+      td.addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); td.blur(); } });
+      tr.append(td);
+    });
+    const conf = document.createElement("td");
+    if (r.source === "pdf_text") {
+      conf.innerHTML = `<div class="conf" title="read from the PDF's text layer (exact)"><div class="bar"><span style="width:100%;background:var(--ok)"></span></div><span class="src">TEXT</span></div>`;
+    } else {
+      const c = Math.round(r.ocr_conf_min ?? 0);
+      conf.innerHTML = `<div class="conf" title="lowest OCR confidence in this row; detector ${Math.round((r.det_conf_min ?? 0) * 100)}%"><div class="bar"><span style="width:${c}%;background:${confColor(c)}"></span></div><small>${c}</small></div>`;
+    }
+    tr.append(conf);
+    const st = document.createElement("td"); st.className = "st";
+    st.innerHTML = r.needs_review ? `<span class="chip warn">Review</span>` : `<span class="chip ok">OK</span>`;
+    if (r.needs_review) { const w = document.createElement("div"); w.className = "why"; w.textContent = reasonText(r.review_reason); st.append(w); }
+    tr.append(st);
+    tb.append(tr);
+  });
+}
+
+/* ---------- downloads */
+async function download(fmt) {
+  if (!current) return;
+  const res = await fetch(`/api/export/${fmt}`, {
+    method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ image: current.image, rows: current.rows })
+  });
+  if (!res.ok) return toast("Download failed");
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(await res.blob());
+  a.download = (current.image || "report").replace(/\.[^.]+$/, "") + "." + fmt;
+  a.click(); URL.revokeObjectURL(a.href);
+}
+
+/* ---------- events */
+$("file").addEventListener("change", e => { upload(e.target.files[0]); e.target.value = ""; });
+const drop = $("drop");
+["dragenter", "dragover"].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.add("over"); }));
+["dragleave", "drop"].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.remove("over"); }));
+drop.addEventListener("drop", e => upload(e.dataTransfer.files[0]));
+drop.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); $("file").click(); } });
+$("csv").addEventListener("click", () => download("csv"));
+$("xlsx").addEventListener("click", () => download("xlsx"));
+$("back").addEventListener("click", () => show("viewUpload"));
+$("again").addEventListener("click", () => show("viewUpload"));
+</script>
+</body>
+</html>

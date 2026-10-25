@@ -1,0 +1,53 @@
+{
+ "detector": "yolo26n",
+ "test_photos": 14,
+ "detection_test_mAP50": 0.995,
+ "detection_test_mAP50_95": 0.8757627857659284,
+ "field_recall_iou50": 1.0,
+ "exact_match": {
+  "A brief + oracle boxes": 0.6711711711711712,
+  "B tuned + oracle boxes": 0.7117117117117117,
+  "C brief pipeline (YOLO)": 0.6801801801801802,
+  "D tuned pipeline (YOLO)": 0.7027027027027027,
+  "E tuned + unit lexicon (YOLO)": 0.8918918918918919
+ },
+ "mean_cer": {
+  "A brief + oracle boxes": 0.13342279811533575,
+  "B tuned + oracle boxes": 0.10518495873198554,
+  "C brief pipeline (YOLO)": 0.13510315632713413,
+  "D tuned pipeline (YOLO)": 0.10736329091031771,
+  "E tuned + unit lexicon (YOLO)": 0.03649242003944683
+ },
+ "final_by_field": {
+  "reference_range": 0.8621,
+  "test_name": 0.875,
+  "unit": 0.8871,
+  "value": 0.9355
+ },
+ "final_by_layout": {
+  "liver": 0.9318,
+  "thyroid": 0.9394,
+  "vitamin": 0.5417
+ },
+ "rows": 62,
+ "straight_through_rate": 0.1935483870967742,
+ "straight_through_accuracy": 0.9166666666666666,
+ "errors_caught_by_flag": 18,
+ "rows_with_errors": 19,
+ "spurious_rows": 0,
+ "spurious_rows_flagged": 0,
+ "full_page_values_found": 0.7419354838709677,
+ "seconds_per_photo_cpu": 2.23,
+ "tuned_preprocessing": {
+  "scale": 3.0,
+  "interp": "cubic",
+  "blur": 0,
+  "binarize": true,
+  "border": 10,
+  "psm_single": 6,
+  "psm_multi": 6,
+  "value_whitelist": true,
+  "pad": 1,
+  "unit_lexicon": false
+ }
+}

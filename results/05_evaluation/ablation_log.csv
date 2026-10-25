@@ -1,0 +1,14 @@
+step,knob,value,exact_match,mean_cer,kept,scale,interp,blur,binarize,border,psm_single,psm_multi,value_whitelist,pad,unit_lexicon
+0,(brief baseline),-,0.6794520547945205,0.12487008791306158,True,3.0,linear,5,True,0,6,6,False,3,False
+1,psm_single,7,0.6390410958904109,0.15169847917363094,False,3.0,linear,5,True,0,7,6,False,3,False
+2,psm_single,13,0.3198630136986301,0.2840267874292891,False,3.0,linear,5,True,0,13,6,False,3,False
+3,border,10,0.6801369863013699,0.12859829647497809,True,3.0,linear,5,True,10,6,6,False,3,False
+4,interp,cubic,0.7068493150684931,0.11451408663030414,True,3.0,cubic,5,True,10,6,6,False,3,False
+5,blur,3,0.7068493150684931,0.10775049680268892,True,3.0,cubic,3,True,10,6,6,False,3,False
+6,blur,0,0.7136986301369863,0.1039354486175664,True,3.0,cubic,0,True,10,6,6,False,3,False
+7,binarize,False,0.31095890410958904,0.35504981919501727,False,3.0,cubic,0,False,10,6,6,False,3,False
+8,scale,2.0,0.6828767123287671,0.11610122381659996,False,2.0,cubic,0,True,10,6,6,False,3,False
+9,scale,4.0,0.7109589041095891,0.10676920102918992,False,4.0,cubic,0,True,10,6,6,False,3,False
+10,value_whitelist,True,0.7136986301369863,0.1037071381152833,True,3.0,cubic,0,True,10,6,6,True,3,False
+11,pad,1,0.7232876712328767,0.0949977527834022,True,3.0,cubic,0,True,10,6,6,True,1,False
+12,pad,6,0.660958904109589,0.14846453373466087,False,3.0,cubic,0,True,10,6,6,True,6,False

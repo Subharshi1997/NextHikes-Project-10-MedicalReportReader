@@ -1,0 +1,6 @@
+field,liver,thyroid,vitamin
+reference_range,90.9,95.2,0.0
+test_name,90.9,33.3,100.0
+unit,90.9,95.2,62.5
+value,100.0,100.0,50.0
+ALL,93.2,93.9,54.2

@@ -1,0 +1,4 @@
+﻿image,row,test_name,value,unit,reference_range,det_conf_min,ocr_conf_min,needs_review,review_reason
+thyrocare_0_9833.jpg,1,TAL TRIIODOTHYRONINE (T3),76,ng/dl,60-200,0.607,28.0,True,low_ocr_conf
+thyrocare_0_9833.jpg,2,TAL THYROXINE (14),5,µg/dl,4.5-12,0.894,9.0,True,low_ocr_conf
+thyrocare_0_9833.jpg,3,NROID STIMULATING HORMONE (TS1),2.14,µIU/ml,0.3-5.5,0.783,34.0,True,low_ocr_conf

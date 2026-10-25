@@ -1,0 +1,13 @@
+.venv/
+.weights_cache/
+datasets/
+results/
+notebooks/
+reports/
+annotations/
+*.log
+*.tar.gz
+**/__pycache__/
+.ipynb_checkpoints/
+model/*
+!model/best.pt
